@@ -24,7 +24,9 @@ function MainLayout() {
             <LayananSection />
             <CollaborationComponent/>
             <PortofolioSection />
-            
+            <div className="relative bg-bg">
+                <h1 className="text-gray text-center p-4 text-sm lg:text-base 2xl:text-lg">Website ini masih dalam tahap pengembangan. Mohon maaf atas ketidaknyamanan.</h1>    
+            </div>
         </div>
     );
 }
