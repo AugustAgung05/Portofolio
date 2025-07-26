@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+@import './theme/theme.css';
+
+@utility paused {
+  animation-play-state: paused;
+}
+
+@theme {
+  --animate-marquee-monitor-1: marquee-monitor-1 10s linear infinite;
+  --animate-marquee-monitor-2: marquee-monitor-2 10s linear infinite;
+  
+  @keyframes marquee-monitor-1 {
+    to {
+      transform: translateX(calc(-100% - 64px));
+    }
+  }
+
+  @keyframes marquee-monitor-2 {
+    to{
+      transform: translateX(calc(-100% - 96px));
+    }
+  }
+}
+
+body {
+  @apply bg-bg;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #34352B;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  opacity: 0.1;
+}
+
+
+
+
+
+
