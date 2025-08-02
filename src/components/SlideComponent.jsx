@@ -5,7 +5,14 @@ import flower from "../assets/flower.svg";
 function SlideComponent() {
   return (
     <div className="relative my-18 xl:my-0 xl:mt-24 xl:mb-16">
-        <div className="absolute -left-8 h-[80px] 2xl:h-[120px] bg-neon rotate-4 md:rotate-3 xl:rotate-[1.5deg] 2xl:rotate-2 z-[-1] w-[110%]"></div>
+
+<svg
+  viewBox="0 0 1440 158"
+  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg"
+  className="absolute -top-5 md:-top-6 lg:-top-[30px] left-0 w-full -z-10 h-[120px] md:h-[130px] lg:h-[140px] 2xl:h-[180px] mx-auto">
+<polygon points="0,0 1440,50 1440,158 0,108" fill="#40E4F1"/>
+</svg>
         <div className="h-[80px] 2xl:h-[120px] bg-gdark">
             <div className="flex h-full items-center group gap-16 2xl:gap-24 overflow-x-hidden">
                 <ul className="text-xl 2xl:text-2xl tracking-wide font-semibold list-none flex items-center gap-16 2xl:gap-24 text-white shrink-0 justify-between whitespace-nowrap min-w-full animate-marquee-monitor-1 2xl:animate-marquee-monitor-2 group-hover:paused">
@@ -74,7 +81,7 @@ function SlideComponent() {
                 </ul>
             </div>
         </div>
-    </div>
+      </div>
   );
 }
 

@@ -64,7 +64,7 @@ function NavbarComponent() {
                         <span className="hamburger-menu duration-300 ease-in-out my-1.5"></span>
                         <span className="hamburger-menu duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
-                    <nav ref={navRef} className={`absolute lg:border-none py-3 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-1 top-[110%] lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ${!isOpen ? 'hidden' : 'navbar-fixed'}`}>
+                    <nav ref={navRef} className={`absolute lg:border-none py-3 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-10 top-[110%] lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ${!isOpen ? 'hidden' : 'navbar-fixed'}`}>
                         <ul className="block lg:flex">
                             <li className="listitem-nav">
                                 <a href="#" className="anchor-nav">Beranda</a>

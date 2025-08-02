@@ -1,6 +1,3 @@
-import circle1 from '../assets/up.svg';
-import circle2 from '../assets/mid.svg';
-import circle3 from '../assets/bottom.svg';
 import NavbarComponent from "../components/NavbarComponent";
 import BerandaSection from "../sections/BerandaSection";
 import LayananSection from '../sections/LayananSection';
@@ -12,11 +9,27 @@ import CollaborationComponent from '../components/CollaborationComponent';
 function MainLayout() {
     return (
         <div>
-            <div className="relative z-[-1] items-center flex flex-col mx-auto">
-                <img src={circle1} className="absolute top-[50%] transform translate-y-[-60%] max-w-[100%] z-[1] md:translate-y-[-77%] md:w-[80%] lg:translate-y-[-80%] xl:w-[100%] xl:translate-y-[-83%] 3xl:max-w-[200%]" alt="circle-up"/>
-                <img src={circle2} className="absolute top-[50%] transform translate-y-[-48%] max-w-[130%] z-[2] opacity-80 md:translate-y-[-63%] md:w-[95%] lg:translate-y-[-68%] xl:w-[110%] xl:translate-y-[-73%] 3xl:max-w-[200%]" alt="circle-mid"/>
-                <img src={circle3} className="absolute top-[50%] transform translate-y-[-38%] max-w-[160%] z-[3] opacity-80 md:translate-y-[-55%] md:w-[115%] lg:translate-y-[-60%] xl:w-[120%] xl:translate-y-[-63%] 3xl:max-w-[200%]" alt="circle-bottom"/>
+            <div className="relative z-[-1] flex flex-col">
+                {/* eslint-disable-next-line react/no-unknown-property */}
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" className="absolute -top-[280px] left-0">
+                    <defs>
+                        <radialGradient id="cccircular-grad" r="50%" cx="50%" cy="50%">
+                        <stop offset="0%" stopColor="#ECDFCC" stopOpacity="0.02"></stop>
+                        <stop offset="50%" stopColor="#ECDFCC" stopOpacity="0.04"></stop>
+                        <stop offset="100%" stopColor="#ECDFCC" stopOpacity="0.02"></stop>
+                        </radialGradient>
+                    </defs>
+                    <g fill="url(#cccircular-grad)">
+                        <circle r="427" cx="400" cy="0"></circle>
+                        <circle r="366" cx="400" cy="0"></circle>
+                        <circle r="305" cx="400" cy="0"></circle>
+                        <circle r="244" cx="400" cy="0"></circle>
+                        <circle r="183" cx="400" cy="0"></circle>
+                        <circle r="122" cx="400" cy="0"></circle>
+                    </g>
+                </svg>
             </div>
+
             <NavbarComponent />
             <BerandaSection />
             <SlideComponent />
