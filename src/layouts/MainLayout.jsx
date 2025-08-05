@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import NavbarComponent from "../components/NavbarComponent";
 import BerandaSection from "../sections/BerandaSection";
 import LayananSection from '../sections/LayananSection';
@@ -10,8 +11,7 @@ function MainLayout() {
     return (
         <div>
             <div className="relative z-[-1] flex flex-col">
-                {/* eslint-disable-next-line react/no-unknown-property */}
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" className="absolute -top-[280px] left-0">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" className="absolute -top-10 sm:-top-18 lg:-top-32 xl:-top-40 2xl:-top-48 3xl:-top-56 left-0">
                     <defs>
                         <radialGradient id="cccircular-grad" r="50%" cx="50%" cy="50%">
                         <stop offset="0%" stopColor="#ECDFCC" stopOpacity="0.02"></stop>

@@ -46,7 +46,20 @@ body::-webkit-scrollbar-thumb:hover {
   opacity: 0.1;
 }
 
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  width: 0;
+  background-color: currentColor;
+  transition: width 0.2s ease-in-out;
+}
 
+.underline-animation:hover::after {
+  width: 100%;
+}
 
 
 

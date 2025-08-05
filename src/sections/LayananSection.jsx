@@ -20,7 +20,7 @@ export default function LayananSection() {
         <section className="py-8 bg-white mt-14">
             <div className="mx-5 text-bg">
                 <h1 className="font-medium sm:text-lg tracking-wider">Layanan</h1>
-                <h2 className="text-lg sm:text-xl font-semibold mt-2">Apa saja yang bisa saya kerjakan?</h2>
+                <h2 className="text-lg sm:text-xl font-semibold mt-3">Apa saja yang bisa saya kerjakan?</h2>
                 <hr className="sm:w-[390px] mt-3 border-bg"/>
                 <div className="flex flex-wrap sm:flex-row mt-8 justify-center gap-5">
                     <TaskComponent
