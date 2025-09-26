@@ -65,7 +65,7 @@ function NavbarComponent() {
                         <span className="hamburger-menu duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
                 </div>
-                <nav ref={navRef} className={`absolute lg:border-none py-3 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-10 top-[110%] lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ${!isOpen ? 'hidden' : 'navbar-fixed'}`}>
+                <nav ref={navRef} className={`absolute lg:border-none py-3 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-10 top-[110%] lg:block lg:static lg:bg-transparent lg:max-w-[500px] lg:shadow-none lg:rounded-none ${!isOpen ? 'hidden' : 'navbar-fixed'}`}>
                     <ul className="block lg:flex">
                         <li className="listitem-nav">
                             <a href="#" className="anchor-nav">Beranda</a>
@@ -86,11 +86,11 @@ function NavbarComponent() {
                         <a href=""><img src={linkedin} alt="" className="transition-transform duration-150 hover:scale-110"/></a>
                     </div>
                 </nav>  
-                <div className="hidden lg:flex items-center justify-center gap-8 mt-4 lg:mt-0 lg:ml-auto">
-                    <a href=""><img src={sun} alt="" className="transition-transform duration-150 hover:scale-110"/></a>
-                    <a href=""><img src={google} alt="" className="transition-transform duration-150 hover:scale-110"/></a>
-                    <a href=""><img src={github} alt="" className="transition-transform duration-150 hover:scale-110"/></a>
-                    <a href=""><img src={linkedin} alt="" className="transition-transform duration-150 hover:scale-110"/></a>
+                <div className="hidden lg:flex gap-8 items-center mr-6 lg:ml-auto">
+                    <a href=""><img src={sun} alt="" className="w-5 2xl:w-6 transition-transform duration-150 hover:scale-110"/></a>
+                    <a href=""><img src={google} alt="" className="w-5 2xl:w-6 transition-transform duration-150 hover:scale-110"/></a>
+                    <a href=""><img src={github} alt="" className="w-5 2xl:w-6 transition-transform duration-150 hover:scale-110"/></a>
+                    <a href=""><img src={linkedin} alt="" className="w-5 2xl:w-6 transition-transform duration-150 hover:scale-110"/></a>
                 </div>
             </div>
         </div>
