@@ -9,6 +9,7 @@
 @theme {
   --animate-marquee-monitor-1: marquee-monitor-1 10s linear infinite;
   --animate-marquee-monitor-2: marquee-monitor-2 10s linear infinite;
+  --animate-shake: shake 0.5s ease-in-out infinite;
   
   @keyframes marquee-monitor-1 {
     to {
@@ -20,6 +21,13 @@
     to{
       transform: translateX(calc(-100% - 96px));
     }
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(-5deg); }
+    75% { transform: rotate(3deg); }
   }
 }
 

@@ -20,19 +20,27 @@ function NavbarComponent() {
 
     useEffect(() => {
         function handleClickOutside(event) {
-        if (navRef.current && !navRef.current.contains(event.target) && toogleRef.current && !toogleRef.current.contains(event.target)) {
-            setIsOpen(false);
-        }
+            if (navRef.current && !navRef.current.contains(event.target) && toogleRef.current && !toogleRef.current.contains(event.target)) {
+                setIsOpen(false);
+            }
         }
 
+        function handleResize(){
+            if(window.innerWidth >= 1024){
+                setIsOpen(false);
+            }
+        }
         if (isOpen) {
         document.addEventListener("click", handleClickOutside);
+        window.addEventListener("resize", handleResize);
         } else {
         document.removeEventListener("click", handleClickOutside);
+        window.removeEventListener("resize", handleResize);
         };
 
         return () => {
             document.removeEventListener("click", handleClickOutside);
+            window.removeEventListener("resize", handleResize);
         };
     }, [isOpen]);
 
@@ -52,9 +60,11 @@ function NavbarComponent() {
     }, []);
 
     return (
-        <div className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-bg/50 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
-            <div className="flex justify-between lg:justify-start lg:gap-6 xl:gap-14 items-center relative mt-1 mx-5">
-                <a href="#" className="font-bold text-lg block py-5 lg:text-2xl text-light">XAAS</a>
+        <div className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-bg/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
+            <div className="flex justify-between lg:gap-6 xl:gap-14 items-center relative mt-1 mx-5">
+                <div className="flex gap-2 items-center">
+                    <a href="#" className="font-bold block py-5 xl:text-lg 2xl:text-xl text-light tracking-wider"><span className="text-neon">X</span>AAS</a>
+                </div>    
                 <div className='flex items-center'>
                     <div className="absolute right-10 lg:hidden">
                         <a href=""><img src={sun} alt="" className="transition-transform duration-150 hover:scale-110"/></a>
@@ -65,7 +75,7 @@ function NavbarComponent() {
                         <span className="hamburger-menu duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
                 </div>
-                <nav ref={navRef} className={`absolute lg:border-none py-3 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-10 top-[110%] lg:block lg:static lg:bg-transparent lg:max-w-[500px] lg:shadow-none lg:rounded-none ${!isOpen ? 'hidden' : 'navbar-fixed'}`}>
+                <nav ref={navRef} className={`absolute lg:border-none py-3 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-6 top-17 lg:block lg:static lg:bg-transparent lg:max-w-[500px] lg:shadow-none lg:rounded-none ${!isOpen ? 'hidden' : 'navbar-fixed'}`}>
                     <ul className="block lg:flex">
                         <li className="listitem-nav">
                             <a href="#" className="anchor-nav">Beranda</a>

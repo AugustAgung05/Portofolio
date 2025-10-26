@@ -6,10 +6,11 @@ import PortofolioSection from '../sections/PortofolioSection';
 import SlideComponent from '../components/SlideComponent';
 import AboutComponent from '../components/AboutComponent';
 import CollaborationComponent from '../components/CollaborationComponent';
+import FooterComponent from "../components/FooterComponent";
 
 function MainLayout() {
     return (
-        <div>
+        <>
             <div className="relative z-[-1] flex flex-col">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" className="absolute -top-10 sm:-top-18 lg:-top-32 xl:-top-40 2xl:-top-48 3xl:-top-56 left-0">
                     <defs>
@@ -37,10 +38,11 @@ function MainLayout() {
             <LayananSection />
             <CollaborationComponent/>
             <PortofolioSection />
-            <div className="relative bg-bg">
+            <FooterComponent />
+            <div className="bg-bg">
                 <h1 className="text-gray text-center p-4 text-sm lg:text-base 2xl:text-lg">Website ini masih dalam tahap pengembangan. Mohon maaf atas ketidaknyamanan.</h1>    
             </div>
-        </div>
+        </>
     );
 }
 

@@ -2,7 +2,7 @@ import flower from "../assets/flower.svg";
 //eslint-disable-next-line
 function SlideComponent() {
   return (
-    <div className="relative my-18 lg:my-0 lg:mt-24 lg:mb-16">
+    <div className="relative my-18 lg:my-0 lg:mt-48 lg:mb-16">
       <svg
         viewBox="0 0 1440 158"
         preserveAspectRatio="none"

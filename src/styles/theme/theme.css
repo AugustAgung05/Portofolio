@@ -3,13 +3,15 @@
 @theme {
     --color-light: #FBFBFB;
     --color-secondary: #CECECE;
-    --color-neon: #40E4F1;
+    --color-neon: #0DC8D5;
     --color-bg: #181C14;
     --color-gdark: #1A3636;
     --color-white: #FAFFF5;
     --color-gray: #A4A4A4;
 
     --breakpoint-3xl: 120rem;
+    --breakpoint-s: 30rem;
+    --breakpoint-xs: 22rem;
 
     --shadow-md: 2px 4px 6px -1px rgb(0 0 0 / 0.1)
 
