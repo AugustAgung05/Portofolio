@@ -12,8 +12,7 @@ export default function PortofolioSection() {
     return (
         <section className="bg-white py-8">
             <div className='mx-5 text-bg'>
-                <h2 className="text-lg sm:text-xl font-semibold">Beberapa Proyek yang Pernah Saya Kerjakan</h2>
-                <hr className="w-full sm:w-[490px] mt-3"/>
+                <h2 className="text-lg sm:text-xl font-bold relative line-bottom-portofolio font-rock-salt leading-relaxed tracking-wider lowercase">jejak karya dalam dunia digital</h2>
                 <div className="flex flex-col sm:flex-row sm:flex-wrap gap-5 mt-8 justify-center items-center sm:gap-8">
                     <ProyekComponent img={Katik} proyek="https://github.com/AugustAgung05/Katik" studiKasus="#" />
                     <ProyekComponent img={RumahListrik} proyek="https://www.figma.com/design/kdErqv5FqnUJS5d0Qrrosr/Rumah-Listrik?node-id=0-1&t=lvG4rSJQBvaDdAs8-1" studiKasus="#" />

@@ -1,12 +1,14 @@
 /* eslint-disable react/no-unknown-property */
 import NavbarComponent from "../components/NavbarComponent";
 import BerandaSection from "../sections/BerandaSection";
-import LayananSection from '../sections/LayananSection';
 import PortofolioSection from '../sections/PortofolioSection'; 
 import SlideComponent from '../components/SlideComponent';
 import AboutComponent from '../components/AboutComponent';
 import CollaborationComponent from '../components/CollaborationComponent';
 import FooterComponent from "../components/FooterComponent";
+import LayananComponent from "../components/LayananComponent";
+import KeahlianComponent from "../components/KeahlianComponent";
+import TestimoniComponent from "../components/TestimoniComponent";
 
 function MainLayout() {
     return (
@@ -35,8 +37,10 @@ function MainLayout() {
             <BerandaSection />
             <SlideComponent />
             <AboutComponent />
-            <LayananSection />
+            <LayananComponent />
             <CollaborationComponent/>
+            <KeahlianComponent />
+            <TestimoniComponent />
             <PortofolioSection />
             <FooterComponent />
             <div className="bg-bg">
