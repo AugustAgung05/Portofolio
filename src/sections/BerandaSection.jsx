@@ -30,7 +30,7 @@ function AboutSection(){
 
                     <div className="lg:min-w-[340px] mt-12 lg:mt-0 lg:self-end">
                         <h3 className="text-white tracking-wider font-medium text-sm md:text-base lg:text-sm xl:text-base 3xl:text-3xl">Hai, perkenalkan saya</h3>
-                        <h1 className="text-light font-mono font-bold text-center lg:text-start mt-3 lg:mt-6 lg:ml-3 xl:ml-5 2xl:ml-0 tracking-wider text-[24px] md:text-[26px] lg:text-[24px] 2xl:text-[28px] 3xl:text-[32px] tracking-in-expand line-bottom-home relative font-rock-salt">ananda agung styadi</h1>
+                        <h1 className="text-light font-bold text-center lg:text-start mt-3 lg:mt-6 lg:ml-3 xl:ml-5 2xl:ml-0 tracking-wider text-[24px] md:text-[26px] lg:text-[24px] 2xl:text-[28px] 3xl:text-[32px] tracking-in-expand line-bottom-home relative font-rock-salt">ananda agung styadi</h1>
                         <p className="mt-6 lg:mt-8 lg:w-[260px] xl:w-[330px] 2xl:w-[390px] 3xl:w-[650px] text-sm md:text-base lg:text-[13px] xl:text-[15px] font-light text-secondary leading-8">
                             <span className="block lg:hidden">
                                 Mahasiswa aktif dari program studi Teknik Informatika semester 5 yang telah memiliki <strong className="font-semibold"> sertifikat kompetensi BNSP</strong>. Berpengalaman dalam mengembangkan berbagai proyek pembelajaran dan selalu bersemangat memperdalam keterampilan di bidang teknologi informasi, mulai dari pemrograman, pengembangan aplikasi, hingga riset terbaru di industri digital.
