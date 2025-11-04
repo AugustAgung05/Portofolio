@@ -14,8 +14,9 @@ export default function KeahlianComponent() {
     return (
         <section className="py-8 bg-white">
             <div className="mx-5 lg:mx-12 text-bg">
-                <h2 className="text-2xl lg:text-[28px] 2xl:text-[32px] font-bold leading-relaxed font-rock-salt line-bottom-keahlian tracking-wider relative order-1 lg:order-0 text-center lowercase">senjata utama dalam pengembangan digital</h2>
-                <div className="flex flex-wrap gap-5 mt-8 justify-center">
+                <h2 className="font-semibold tracking-wide sm:text-lg lg:text-2xl md:text-center">Kemampuan Teknis</h2>
+                <h3 className="text-2xl lg:text-[28px] 2xl:text-[32px] mt-3 lg:mt-8 font-bold leading-relaxed font-rock-salt line-bottom-keahlian tracking-wider relative order-1 lg:order-0 text-center lowercase">senjata utama dalam pengembangan digital</h3>
+                <div className="flex flex-wrap gap-3 mt-10 lg:mt-12 justify-center">
                     <SkillComponent img={htmlSkill} title="HTML" description="Front-End Development" />
                     <SkillComponent img={cssSkill} title="CSS" description="Front-End Development" />
                     <SkillComponent img={javascriptSkill} title="JavaScript" description="Front-End Development" />

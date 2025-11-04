@@ -13,9 +13,10 @@ import quote from "../assets/quote.svg";
 export default function TestimoniComponent() {
     return (
         <section className="py-8">
-            <div className="mx-5 text-white">
-                <h2 className="text-3xl font-bold leading-relaxed line-bottom-testimoni relative font-rock-salt tracking-wider text-center lg:text-start lowercase">cerita di balik kerjasama nyata</h2>
-                <div className="flex flex-row lg:flex-row gap-8 mt-8 justify-center flex-wrap">
+            <div className="mx-5 lg:mx-12 text-white">
+                <h2 className="font-semibold tracking-wide sm:text-lg lg:text-2xl md:text-center">Apa Kata Mereka</h2>
+                <h3 className="text-2xl lg:text-[28px] 2xl:text-[32px] mt-3 lg:mt-8 font-bold leading-relaxed font-rock-salt line-bottom-testimoni tracking-wider relative order-1 lg:order-0 text-center lowercase">cerita di balik kerjasama nyata</h3>
+                <div className="flex flex-row lg:flex-row gap-3 mt-10 lg:mt-12 justify-center flex-wrap">
                     <div className="p-6 bg-white/40 rounded-md testimoni-card">
                         <div className="p-4 border rounded-full inline-block">
                             <img src={quote} alt="Quote" className="rotate-180 w-8" />

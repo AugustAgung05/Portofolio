@@ -44,7 +44,7 @@ function MainLayout() {
             <PortofolioSection />
             <FooterComponent />
             <div className="bg-bg">
-                <h1 className="text-gray text-center p-4 text-sm lg:text-base 2xl:text-lg">Website ini masih dalam tahap pengembangan. Mohon maaf atas ketidaknyamanan.</h1>    
+                <h1 className="text-gray text-center p-4 text-sm xl:text-base">Website ini masih dalam tahap pengembangan. Mohon maaf atas ketidaknyamanan.</h1>    
             </div>
         </>
     );

@@ -1,9 +1,9 @@
 //eslint-disable-next-line
 export default function ProyekComponent({img, proyek, studiKasus}) {
   return (
-    <div className="flex flex-col gap-1">
-        <img className="w-auto" src={img} alt={img} />
-        <div className="flex gap-6 justify-start mt-1 lg:mt-2">
+    <div className="flex flex-col gap-1.5">
+        <img className="w-auto md:w-[330px] lg:w-[360px] 2xl:w-[400px]" src={img} alt={img} />
+        <div className="flex gap-6 justify-start">
           <div className="relative inline-block underline-animation">
             <a href={proyek} target="_blank" rel="noopener noreferrer" className="text-sm sm:text-base font-medium flex items-center gap-1.5">
                 <span>Lihat Proyek</span>

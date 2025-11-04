@@ -2,8 +2,8 @@ export default function LayananComponent() {
   return (
     <section className="py-8 bg-white mt-14">
         <div className="mx-5 lg:mx-12 text-bg">
-            <h1 className="font-semibold tracking-wide sm:text-lg lg:text-2xl md:text-center">Layanan</h1>
-            <div className="flex flex-col lg:flex-row items-center gap-7 md:gap-12 mt-3 md:mt-8">
+            <h2 className="font-semibold tracking-wide sm:text-lg lg:text-2xl md:text-center">Layanan</h2>
+            <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-12 mt-3 lg:mt-8">
               <div className="grid gap-3 grid-cols-1 lg:grid-cols-[2fr_0.2fr_2fr] lg:w-2/3 order-2 lg:order-0">
                 <div className="layanan-grid-1 col-span-1 lg:col-span-2 order-1 lg:order-0">
                   <h2 className="font-bold text-white tracking-wide">Pengembangan Website</h2>
@@ -22,7 +22,7 @@ export default function LayananComponent() {
                   <p className="text-sm mt-4 text-secondary font-medium">Membuat representasi visual dari sistem.</p>
                 </div>
               </div>
-              <h1 className="lg:w-1/3 text-2xl lg:text-[28px] 2xl:text-[32px] font-bold leading-relaxed font-rock-salt line-bottom-layanan tracking-wider relative order-1 lg:order-0 text-center lg:text-start lowercase">4 aksi nyata dalam pengembangan digital</h1>
+              <h3 className="lg:w-1/3 text-2xl lg:text-[28px] 2xl:text-[32px] font-bold leading-relaxed font-rock-salt line-bottom-layanan tracking-wider relative order-1 lg:order-0 text-center lg:text-start lowercase">4 aksi nyata dalam pengembangan digital</h3>
             </div>
         </div>
     </section>

@@ -13,9 +13,9 @@ import "../styles/style.css";
 export default function FooterComponent() {
     return(
         <div className="bg-gdark text-secondary">
-            <div className="mx-5 pt-8 pb-4">
+            <div className="mx-5 lg:mx-12 pt-8 pb-4">
                 <div className="flex flex-col gap-8 lg:gap-0 lg:flex-row justify-center lg:justify-between items-start">
-                    <div className="lg:w-[250px] xl:w-[300px]">
+                    <div className="custom-width-1">
                         <h2 className="text-light font-bold text-lg lg:text-base"><span className="text-neon">X</span>AAS</h2>
                         <p className="mt-2 lg:mt-3 text-sm lg:text-xs xl:text-sm leading-relaxed">Teknologi terus berkembang, dan kamu bisa ikut maju! Dapatkan panduan lengkap untuk memahami dunia pemrograman dengan cara yang lebih mudah.</p>
                         <div className="mt-6 justify-center flex gap-5 lg:gap-7">
@@ -63,7 +63,7 @@ export default function FooterComponent() {
                             </li>
                         </ul>
                     </div>
-                    <div className="lg:w-[300px]">
+                    <div className="custom-width-2">
                         <h2 className="text-light font-bold text-lg lg:text-base">Yuk Bangun Sesuatu Bersama</h2>
                         <p className="mt-2 lg:mt-3 text-sm lg:text-xs xl:text-sm leading-relaxed">Tertarik bekerja sama dalam proyek digital? Saya siap membantu Anda mewujudkan ide menjadi solusi nyata.</p>
                         <div className="mt-4 flex flex-col gap-3">

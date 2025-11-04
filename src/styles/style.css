@@ -77,9 +77,9 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(-50%);
 }
 
-@media (min-width: 361px) {
+@media (min-width: 356px) {
   .line-bottom-home::before{
-    bottom: -44px;
+    bottom: -43px;
   }
 }
 
@@ -103,13 +103,13 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(-50%);
 }
 
-@media (min-width: 365px) {
+@media (min-width: 360px) {
   .line-bottom-about::before{
     bottom: -82px;
   }
 }
 
-@media (min-width: 677px) {
+@media (min-width: 672px) {
   .line-bottom-about::before{
     bottom: -43px;
   }
@@ -123,7 +123,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 
-@media (min-width: 1384px) {
+@media (min-width: 1379px) {
   .line-bottom-about::before{
     bottom: -93px;
   }
@@ -148,7 +148,7 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(-50%);
 }
 
-@media (min-width: 332px) {
+@media (min-width: 327px) {
   .line-bottom-layanan::before{
     bottom: -117px;
   }
@@ -160,7 +160,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 
-@media (min-width: 683px) {
+@media (min-width: 677px) {
   .line-bottom-layanan::before{
     bottom: -41px;
   }
@@ -181,23 +181,16 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 
-@media (min-width: 1282px) {
+@media (min-width: 1333px) {
   .line-bottom-layanan::before{
     bottom: -93px;
   }
 }
 
-.line-bottom-portofolio::before {
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  width: 200px;
-  background-image: url('/src/assets/line2.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-  content: '';
-  transform: translateX(-50%);
+@media (min-width: 1536px) {
+  .line-bottom-layanan::before{
+    bottom: -105px;
+  }
 }
 
 .line-bottom-keahlian::before {
@@ -213,13 +206,13 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(-50%);
 }
 
-@media (min-width: 370px) {
+@media (min-width: 369px) {
   .line-bottom-keahlian::before{
     bottom: -117px;
   }
 }
 
-@media (min-width: 370px) {
+@media (min-width: 380px) {
   .line-bottom-keahlian::before{
     bottom: -80px;
   }
@@ -237,9 +230,15 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 
+@media (min-width: 1536px) {
+  .line-bottom-keahlian::before{
+    bottom: -54px;
+  }
+}
+
 .line-bottom-testimoni::before {
   position: absolute;
-  bottom: -30px;
+  bottom: -120px;
   left: 50%;
   width: 200px;
   background-image: url('/src/assets/line.svg');
@@ -248,6 +247,67 @@ body::-webkit-scrollbar-thumb:hover {
   height: 100%;
   content: '';
   transform: translateX(-50%);
+}
+
+@media (min-width: 304px) {
+  .line-bottom-testimoni::before{
+    bottom: -80px;
+  }
+}
+
+@media (min-width: 542px) {
+  .line-bottom-testimoni::before{
+    bottom: -41px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .line-bottom-testimoni::before{
+    bottom: -49px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .line-bottom-testimoni::before{
+    bottom: -55px;
+  }
+}
+
+.line-bottom-portofolio::before {
+  position: absolute;
+  bottom: -120px;
+  left: 50%;
+  width: 200px;
+  background-image: url('/src/assets/line2.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  content: '';
+  transform: translateX(-50%);
+}
+
+@media (min-width: 329px) {
+  .line-bottom-portofolio::before{
+    bottom: -80px;
+  }
+}
+
+@media (min-width: 536px) {
+  .line-bottom-portofolio::before{
+    bottom: -40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .line-bottom-portofolio::before{
+    bottom: -48px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .line-bottom-portofolio::before{
+    bottom: -55px;
+  }
 }
 
 .testimoni-card {
@@ -403,4 +463,35 @@ body::-webkit-scrollbar-thumb:hover {
     background-size: cover;
     background-position: 0% 65%;
   }
-} 
+}
+
+.custom-width-1, .custom-width-2 {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .custom-width-1 {
+    width: 210px;
+  }
+  .custom-width-2 {
+    width: 270px;
+  }
+}
+
+@media (min-width: 1210px) {
+  .custom-width-1 {
+    width: 270px;
+  }
+  .custom-width-2 {
+    width: 290px;
+  }
+}
+
+@media (min-width: 1310px) {
+  .custom-width-1 {
+    width: 310px;
+  }
+  .custom-width-2 {
+    width: 310px;
+  }
+}
