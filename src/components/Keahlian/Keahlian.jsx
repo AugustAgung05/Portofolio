@@ -1,0 +1,54 @@
+import Card from "./Card";
+import htmlSkill from '../../assets/HTML Skill.svg';
+import cssSkill from '../../assets/CSS SKill.svg';
+import javascriptSkill from '../../assets/Javascript Skill.svg';
+import reactSkill from '../../assets/React Skill.svg';
+import figmaSkill from '../../assets/Figma Skill.svg';
+import gitSkill from '../../assets/Git Skill.svg';
+import tailwindSkill from '../../assets/Tailwind Skill.svg';
+import mysqlSkill from '../../assets/MySQL Skill.svg';
+import vueSkill from '../../assets/Vue Skill.svg';
+import umlSkill from '../../assets/Diagram Skill.svg';
+import { useEffect, useRef } from "react";
+
+export default function Keahlian() {
+    const ref = useRef(null);
+    
+        useEffect(() => {
+            const el = ref.current;
+    
+            const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                el.classList.add("animate-fade-in");
+                observer.unobserve(el);
+                }
+            },
+            { threshold: 0.5 }
+            );
+    
+            observer.observe(el);
+        }, []);
+    return (
+        <section ref={ref} id="keahlian" className="py-16 opacity-0">
+            <div className="mx-5 lg:mx-12 text-light">
+                <h3 className="tagline-section line-bottom-tagline">
+                    senjata utama dalam <br className="hidden md:block"/>
+                    <span className="text-special">pengembangan digital</span>
+                </h3>
+                <div className="flex flex-wrap gap-3 mt-10 lg:mt-12 xl:mt-18 justify-center">
+                    <Card img={htmlSkill} title="HTML" description="Front-End Development" />
+                    <Card img={cssSkill} title="CSS" description="Front-End Development" />
+                    <Card img={javascriptSkill} title="JavaScript" description="Front-End Development" />
+                    <Card img={reactSkill} title="React" description="Front-End Development" />
+                    <Card img={figmaSkill} title="Figma" description="UI/UX Design" />
+                    <Card img={gitSkill} title="Git" description="Version Control System" />
+                    <Card img={tailwindSkill} title="Tailwind CSS" description="Front-End Development" />
+                    <Card img={mysqlSkill} title="MySQL" description="Back-End Development" />
+                    <Card img={vueSkill} title="Vue.js" description="Front-End Development" />
+                    <Card img={umlSkill} title="UML" description="System Design" />
+                </div>
+            </div>
+        </section>
+    );
+};
