@@ -19,8 +19,7 @@ export default function Layanan() {
             observer.observe(el);
         }, []);
     return (
-        <section ref={ref} id="layanan" className="scroll-m-10 opacity-0">
-                {/* <div className="absolute inset-0 blur-bg -z-10"></div> */}
+        <section ref={ref} id="layanan" className="scroll-m-8 opacity-0">
             <div className="text-white px-5 md:px-7 max-w-7xl py-12 lg:py-18 mx-auto">
                 <h3 className="tagline-section custom-line-bottom-tagline" style={{ '--line-offset': '-120px' }}>
                     4 aksi nyata dalam <br className="hidden md:block" />

@@ -28,7 +28,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
   }, [images.length]);
 
   return (
-    <div className="bg-gray-900 text-white w-[95vw] max-w-3xl max-h-[90vh] overflow-y-auto modal-scroll rounded-xl p-6 shadow-2xl relative">
+    <div className="bg-gray-900 text-white w-[95vw] max-w-3xl max-h-[95vh] overflow-y-auto modal-scroll rounded-xl p-6 shadow-2xl relative">
       <button
         onClick={onClose}
         className="sticky top-0 float-right bg-red-500 p-2 rounded-full hover:bg-red-700 transition z-[9999]"
@@ -58,12 +58,12 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
         ))}
       </div>
         
-      <h2 className="text-2xl font-bold">{title}</h2>
+      <h2 className="text-base lg:text-2xl font-bold">{title}</h2>
       <p className="text-secondary text-sm mb-2">{role}</p>
       <p className="text-sm leading-relaxed mb-6">{desc}</p>
 
       <div className="mb-6">
-        <h3 className="text-lg font-semibold mb-2">Scope</h3>
+        <h3 className="text-sm lg:text-lg font-semibold mb-2">Scope</h3>
         <div className="flex flex-wrap gap-2">
           {scopes.map((scope, idx) => (
             <span
@@ -77,7 +77,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
       </div>
 
       <div className="mb-6">
-        <h3 className="text-lg font-semibold mb-2">Tools & Technologies</h3>
+        <h3 className="text-sm lg:text-lg font-semibold mb-2">Tools & Technologies</h3>
         <div className="flex flex-wrap gap-2">
           {tools.map((tool, idx) => (
             <span
@@ -91,7 +91,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
       </div>
 
       <div>
-        <h3 className="text-lg font-semibold mb-2">Fitur</h3>
+        <h3 className="text-sm lg:text-lg font-semibold mb-2">Fitur</h3>
         <ul className="list-disc pl-5 space-y-1 text-sm text-gray-300">
           {features.map((f, idx) => (
             <li key={idx}>{f}</li>
@@ -102,8 +102,8 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
       { link && (
         <button className="sticky bottom-0 float-right bg-gradient-to-r from-cyan-400 to-blue-600 px-4 py-2 rounded-full hover:scale-105 transition-transform">
           <a href={link} className="flex gap-2 items-center" target="_blank" rel="noopener noreferrer">
-              <p className="text-gray-900/80 font-medium">Lihat Desain</p>
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.75 12C9.75 10.7574 10.7574 9.75 12 9.75C13.2426 9.75 14.25 10.7574 14.25 12C14.25 13.2426 13.2426 14.25 12 14.25C10.7574 14.25 9.75 13.2426 9.75 12Z" fill="#101828"></path> <path fillRule="evenodd" clipRule="evenodd" d="M2 12C2 13.6394 2.42496 14.1915 3.27489 15.2957C4.97196 17.5004 7.81811 20 12 20C16.1819 20 19.028 17.5004 20.7251 15.2957C21.575 14.1915 22 13.6394 22 12C22 10.3606 21.575 9.80853 20.7251 8.70433C19.028 6.49956 16.1819 4 12 4C7.81811 4 4.97196 6.49956 3.27489 8.70433C2.42496 9.80853 2 10.3606 2 12ZM12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25Z" fill="#101828"></path> </g></svg>
+              <p className="text-gray-900/80 text-sm lg:text-base font-medium">Lihat Desain</p>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 lg:w-6"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.75 12C9.75 10.7574 10.7574 9.75 12 9.75C13.2426 9.75 14.25 10.7574 14.25 12C14.25 13.2426 13.2426 14.25 12 14.25C10.7574 14.25 9.75 13.2426 9.75 12Z" fill="#101828"></path> <path fillRule="evenodd" clipRule="evenodd" d="M2 12C2 13.6394 2.42496 14.1915 3.27489 15.2957C4.97196 17.5004 7.81811 20 12 20C16.1819 20 19.028 17.5004 20.7251 15.2957C21.575 14.1915 22 13.6394 22 12C22 10.3606 21.575 9.80853 20.7251 8.70433C19.028 6.49956 16.1819 4 12 4C7.81811 4 4.97196 6.49956 3.27489 8.70433C2.42496 9.80853 2 10.3606 2 12ZM12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25Z" fill="#101828"></path> </g></svg>
             </a>
         </button>
       )}

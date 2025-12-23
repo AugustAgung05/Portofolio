@@ -10,71 +10,71 @@ import PerpustakaanLogo from '../../assets/Perpustakaan Logo.svg';
 import PregnaCareLogo from '../../assets/PregnaCare Logo.svg';
 import InventoryLogo from '../../assets/Inventory Logo.svg';
 
-import KicauMania1 from '../../assets/[3]Kicau Mania.png';
-import KicauMania2 from '../../assets/[2]Kicau Mania.png';
-import KicauMania3 from '../../assets/[1]Kicau Mania.png';
-import KicauManiaDesign from '../../assets/Kicau Mania Design.jpg';
-import KicauMania from '../../assets/Kicau Mania.png';
+import KicauMania1 from '../../assets/kicau-mania-3.png';
+import KicauMania2 from '../../assets/kicau-mania-2.png';
+import KicauMania3 from '../../assets/kicau-mania-1.png';
+import KicauManiaDesign from '../../assets/kicau-mania-design.jpg';
+import KicauMania from '../../assets/kicau-mania.png';
 
-import Perpustakaan1 from '../../assets/[1]Perpustakaan.jpg';
-import Perpustakaan2 from '../../assets/[2]Perpustakaan.jpg';
-import Perpustakaan3 from '../../assets/[3]Perpustakaan.jpg';
-import Perpustakaan4 from '../../assets/[4]Perpustakaan.jpg';
-import Perpustakaan5 from '../../assets/[5]Perpustakaan.jpg';
-import Perpustakaan from '../../assets/Perpustakaan.png';
+import Perpustakaan1 from '../../assets/perpustakaan-1.jpg';
+import Perpustakaan2 from '../../assets/perpustakaan-2.jpg';
+import Perpustakaan3 from '../../assets/perpustakaan-3.jpg';
+import Perpustakaan4 from '../../assets/perpustakaan-4.jpg';
+import Perpustakaan5 from '../../assets/perpustakaan-5.jpg';
+import Perpustakaan from '../../assets/perpustakaan.png';
 
-import Katik1 from '../../assets/[3]Katik.png';
-import Katik2 from '../../assets/[2]Katik.png';
-import Katik3 from '../../assets/[1]Katik.png';
-import Katik from '../../assets/Katik.png';
+import Katik1 from '../../assets/katik-3.png';
+import Katik2 from '../../assets/katik-2.png';
+import Katik3 from '../../assets/katik-1.png';
+import Katik from '../../assets/katik.png';
 
-import Sederhana1 from '../../assets/[2]Sederhana.png';
-import Sederhana2 from '../../assets/[1]Sederhana.png';
-import SederhanaDesign from '../../assets/Sederhana Design.jpg';
-import Sederhana from '../../assets/Sederhana.png';
+import Sederhana1 from '../../assets/sederhana-2.png';
+import Sederhana2 from '../../assets/sederhana-1.png';
+import SederhanaDesign from '../../assets/sederhana-design.jpg';
+import Sederhana from '../../assets/sederhana.png';
 
-import oPoint1 from '../../assets/[3]oPoint.png';
-import oPoint2 from '../../assets/[2]oPoint.png';
-import oPoint3 from '../../assets/[1]oPoint.png';
-import oPointDesign from '../../assets/oPoint Design.jpg';
-import oPoint from '../../assets/oPoint.png';
+import oPoint1 from '../../assets/opoint-3.png';
+import oPoint2 from '../../assets/opoint-2.png';
+import oPoint3 from '../../assets/opoint-1.png';
+import oPointDesign from '../../assets/opoint-design.jpg';
+import oPoint from '../../assets/opoint.png';
 
-import RumahListrik1 from '../../assets/[3]Rumah Listrik.png';
-import RumahListrik2 from '../../assets/[2]Rumah Listrik.png';
-import RumahListrik3 from '../../assets/[1]Rumah Listrik.png';
-import RumahListrikDesign from '../../assets/Rumah Listrik Design.png';
-import RumahListrikUML from '../../assets/Rumah Listrik UML.jpg';
-import RumahListrik from '../../assets/Rumah Listrik.png';
+import RumahListrik1 from '../../assets/rumah-listrik-3.png';
+import RumahListrik2 from '../../assets/rumah-listrik-2.png';
+import RumahListrik3 from '../../assets/rumah-listrik-1.png';
+import RumahListrikDesign from '../../assets/rumah-listrik-design.png';
+import RumahListrikUML from '../../assets/rumah-listrik-uml.jpg';
+import RumahListrik from '../../assets/rumah-listrik.png';
 
-import Simis1 from '../../assets/[3]SIMIS.png';
-import Simis2 from '../../assets/[2]SIMIS.png';
-import Simis3 from '../../assets/[1]SIMIS.png';
-import SimisDesign from '../../assets/SIMIS Design.jpg';
-import SimisUML from '../../assets/SIMIS UML.jpg';
-import Simis from '../../assets/SIMIS.png';
+import Simis1 from '../../assets/simis-3.png';
+import Simis2 from '../../assets/simis-2.png';
+import Simis3 from '../../assets/simis-1.png';
+import SimisDesign from '../../assets/simis-design.jpg';
+import SimisUML from '../../assets/simis-uml.jpg';
+import Simis from '../../assets/simis.png';
 
-import PregnaCare1 from '../../assets/[2]PregnaCare.png';
-import PregnaCare2 from '../../assets/[3]PregnaCare.png';
-import PregnaCare3 from '../../assets/[4]PregnaCare.png';
-import PregnaCare4 from '../../assets/[5]PregnaCare.png';
-import PregnaCare5 from '../../assets/[1]PregnaCare.png';
-import PregnaCareDesign from '../../assets/PregnaCare Design.jpg';
-import PregnaCare from '../../assets/PregnaCare.png';
+import PregnaCare1 from '../../assets/pregnacare-2.png';
+import PregnaCare2 from '../../assets/pregnacare-3.png';
+import PregnaCare3 from '../../assets/pregnacare-4.png';
+import PregnaCare4 from '../../assets/pregnacare-5.png';
+import PregnaCare5 from '../../assets/pregnacare-1.png';
+import PregnaCareDesign from '../../assets/pregnacare-design.jpg';
+import PregnaCare from '../../assets/pregnacare.png';
 
-import Inventory1 from '../../assets/[1]Inventory.png';
-import Inventory2 from '../../assets/[2]Inventory.png';
-import Inventory3 from '../../assets/[3]Inventory.png';
-import Inventory4 from '../../assets/[4]Inventory.png';
-import Inventory5 from '../../assets/[5]Inventory.png';
-import InventoryDesign from '../../assets/Inventory Design.jpg';
-import InventoryUML from '../../assets/Inventory UML.png';
-import Inventory from '../../assets/Inventory.png';
+import Inventory1 from '../../assets/inventory-1.png';
+import Inventory2 from '../../assets/inventory-2.png';
+import Inventory3 from '../../assets/inventory-3.png';
+import Inventory4 from '../../assets/inventory-4.png';
+import Inventory5 from '../../assets/inventory-5.png';
+import InventoryDesign from '../../assets/inventory-design.jpg';
+import InventoryUML from '../../assets/inventory-uml.png';
+import Inventory from '../../assets/inventory.png';
 
-import Diagram1 from '../../assets/Diagram1.png';
-import Diagram2 from '../../assets/Diagram2.png';
-import Diagram3 from '../../assets/Diagram3.png';
-import Diagram4 from '../../assets/Diagram4.png';
-import Diagram from '../../assets/Diagram.png';
+import Diagram1 from '../../assets/diagram-1.png';
+import Diagram2 from '../../assets/diagram-2.png';
+import Diagram3 from '../../assets/diagram-3.png';
+import Diagram4 from '../../assets/diagram-4.png';
+import Diagram from '../../assets/diagram.png';
 
 import { useEffect, useRef } from "react";
 
@@ -114,7 +114,7 @@ export default function Portofolio() {
                     <Card category="Client" title="SIMIS" description="Web Application Design" logo={SimisLogo} contentImg={[Simis, SimisDesign, Simis1, Simis2, Simis3, SimisUML]} role="System Analyst & UI/UX Designer" contentDesc="Merancang arsitektur sistem manajemen aset sekolah secara menyeluruh. Mencakup seluruh siklus desain dari sketsa kasar (wireframe) untuk validasi alur. Sangat teknis dalam dokumentasi (ERD, DFD, Use Case) untuk memastikan logika backend selaras dengan antarmuka pengguna." scopes={["UI/UX Design", "System Documentation (UML)"]} tools={["Figma", "UML Tools"]} features={["Manajemen Aset (CRUD)", "Filter Data", "Export Laporan", "Sirkulasi Peminjaman", "Pelaporan Aset", "Visualisasi Data", "Pengaturan Sistem", "Dokumentasi Alur Sistem"]} link="https://www.figma.com/proto/9145xvxXjRRam0WH0bVNzU/Projek-SIMIS?node-id=1-3488&p=f&t=YVaGV2eO8kJrbuJh-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A3488&starting-point-node-id=1%3A6614" />
 
                     
-                    <Card category="Client" title="Perpustakaan" description="Mobile Application Design" logo={PerpustakaanLogo} contentImg={[Perpustakaan, Perpustakaan1, Perpustakaan2, Perpustakaan3, Perpustakaan4, Perpustakaan5]} role="" contentDesc="" scopes={[]} tools={[]} features={[]} link="https://github.com/AugustAgung05/Katik" />
+                    <Card category="Client" title="Perpustakaan" description="Mobile Application Design" logo={PerpustakaanLogo} contentImg={[Perpustakaan, Perpustakaan1, Perpustakaan2, Perpustakaan3, Perpustakaan4, Perpustakaan5]} role="" contentDesc="Merancang, menganalisis, dan mengembangkan sebuah web dashboard analitik perpustakaan digital secara menyeluruh, mencakup implementasi visualisasi data interaktif untuk melacak riwayat transaksi anggota, menganalisis durasi peminjaman, serta mengidentifikasi popularitas koleksi buku guna mendukung pengambilan keputusan strategis." scopes={["Full Stack Development", "Data Visualization", "Interactive UI Design."]} tools={["Javascript", "Chart.JS", "Node.JS", "MySQL Lite", "Laragon"]} features={["Real-time Visitor & Loan Metrics", "Collection Popularity Ranking", "Member Behavior Insight", "Advanced Transaction Report"]} link="https://github.com/AugustAgung05/Katik" />
 
                     
                     <Card category="Client" title="Sederhana" description="Mobile Application Design" logo={SederhanaLogo} contentImg={[Sederhana, SederhanaDesign, Sederhana1, Sederhana2]} role="UI/UX Designer" contentDesc="Proyek desain aplikasi mobile bertema produktivitas dan ketenangan. Mencakup seluruh siklus desain dari sketsa kasar (wireframe) untuk validasi alur, hingga desain visual akhir yang estetik dan menenangkan." scopes={["End-to-End Design (Wireframe to Mockup)"]} tools={["Figma"]} features={["Otentikasi User (Login/Register)", "Tema Visual Minimalis."]} link="https://www.figma.com/proto/ehwbfhy7GPsmnN38cPXubM/Project-Sederhana?node-id=0-1&p=f&t=9yRcwIj97HMWOIei-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A343" />
