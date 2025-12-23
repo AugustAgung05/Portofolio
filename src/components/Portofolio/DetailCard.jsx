@@ -28,10 +28,10 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
   }, [images.length]);
 
   return (
-    <div className="bg-gray-900 text-white w-[95vw] max-w-3xl max-h-[95vh] overflow-y-auto modal-scroll rounded-xl p-6 shadow-2xl relative">
+    <div className="bg-gray-900 text-white w-[90vw] max-w-3xl max-h-[95vh] overflow-y-auto modal-scroll rounded-xl p-4 sm:p-6 shadow-2xl relative">
       <button
         onClick={onClose}
-        className="sticky top-0 float-right bg-red-500 p-2 rounded-full hover:bg-red-700 transition z-[9999]"
+        className="absolute top-4 right-4 bg-red-500 p-2 rounded-full hover:bg-red-700 transition z-[9999]"
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className="w-5 h-5 fill-white">
           <path d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"/>
@@ -58,7 +58,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
         ))}
       </div>
         
-      <h2 className="text-base lg:text-2xl font-bold">{title}</h2>
+      <h2 className="text-base lg:text-2xl font-bold mt-4">{title}</h2>
       <p className="text-secondary text-sm mb-2">{role}</p>
       <p className="text-sm leading-relaxed mb-6">{desc}</p>
 
@@ -90,7 +90,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
         </div>
       </div>
 
-      <div>
+      <div className="mb-6 s:mb-0">
         <h3 className="text-sm lg:text-lg font-semibold mb-2">Fitur</h3>
         <ul className="list-disc pl-5 space-y-1 text-sm text-gray-300">
           {features.map((f, idx) => (
