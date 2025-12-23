@@ -98,7 +98,7 @@ export default function Portofolio() {
         }, []);
 
     return (
-        <section ref={ref} id="portofolio" className="scroll-m-10 opacity-0">
+        <section ref={ref} id="portofolio" className="scroll-m-6 opacity-0">
             <div className="px-5 md:px-7 py-12 lg:py-18 max-w-7xl mx-auto text-white">
                 <h3 className="tagline-section line-bottom-tagline" style={{ '--line-offset': '-120px' }}>
                     jejak karya dalam <br className="hidden md:block" />

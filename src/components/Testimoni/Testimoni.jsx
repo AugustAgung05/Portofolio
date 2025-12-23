@@ -29,7 +29,7 @@ export default function Testimoni() {
     }, []);
 
     return (
-        <section ref={ref} id="testimoni" className="scroll-m-8 opacity-0">
+        <section ref={ref} id="testimoni" className="scroll-m-6 opacity-0">
             <div className="px-5 md:px-7 py-12 lg:py-18 max-w-7xl mx-auto text-white">
                 <h3 className="tagline-section line-bottom-tagline text-white" style={{ '--line-offset': '-120px' }}>
                     cerita di balik <br className="hidden md:block" />

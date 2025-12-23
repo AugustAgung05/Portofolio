@@ -51,10 +51,11 @@ export default function Footer() {
                     <div>
                         <h2 className="text-light font-bold text-lg lg:text-base">Tautan Cepat</h2>
                         <ul className="mt-2 lg:mt-3 space-y-1.5 lg:space-y-2.5 text-sm lg:text-xs xl:text-sm">
-                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#">Beranda</a></li>
-                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#">Tentang</a></li>
-                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#">Layanan</a></li>
-                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#">Pendapat Pelanggan</a></li>
+                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#tentang">Tentang</a></li>
+                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#layanan">Layanan</a></li>
+                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#keahlian">Keahlian</a></li>
+                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#testimoni">Pendapat Pelanggan</a></li>
+                            <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#portofolio">Portofolio</a></li>
                         </ul>
                     </div>
                     <div>
