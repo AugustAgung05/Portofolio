@@ -13,20 +13,20 @@ export default function Card({ category, title, description, logo, contentImg = 
 
                 <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
 
-                <div className="relative z-10 w-[350px] h-[200px] bg-[#0F1722] flex items-center rounded-lg transition-opacity duration-300 group-hover:opacity-20">
-                    <div className="flex justify-between items-center w-full px-10">
+                <div className="relative z-10 w-[250px] md:w-[350px] h-[140px] md:h-[200px] bg-[#0F1722] flex items-center rounded-lg transition-opacity duration-300 group-hover:opacity-20">
+                    <div className="flex justify-between items-center w-full px-6 md:px-10">
                         <div className="flex flex-col font-medium">
-                            <h4 className="px-4 py-0.5 bg-white text-bg text-[13px] rounded-full w-fit">
+                            <h4 className="px-4 pt-1 pb-0.5 bg-white text-bg text-[10px] md:text-[13px] rounded-full w-fit">
                                 {category}
                             </h4>
-                            <h5 className="text-2xl text-white mt-2">
+                            <h5 className="text-lg md:text-2xl text-white mt-2">
                                 {title}
                             </h5>
-                            <p className="text-[13px] font-normal text-secondary mt-1">
+                            <p className="text-[10px] md:text-[13px] font-normal text-secondary mt-1">
                                 {description}
                             </p>
                         </div>
-                        <img src={logo} alt="Logo" className="w-22" />
+                        <img src={logo} alt="Logo" className="w-15 md:w-22" />
                     </div>
                 </div>
 

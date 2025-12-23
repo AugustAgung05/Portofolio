@@ -29,14 +29,14 @@ export default function Testimoni() {
     }, []);
 
     return (
-        <section ref={ref} id="testimoni" className="py-16 opacity-0">
-            <div className="mx-5 lg:mx-12">
-                <h3 className="tagline-section line-bottom-tagline text-white">
+        <section ref={ref} id="testimoni" className="scroll-m-10 opacity-0">
+            <div className="px-5 md:px-7 py-12 lg:py-18 max-w-7xl mx-auto text-white">
+                <h3 className="tagline-section line-bottom-tagline text-white" style={{ '--line-offset': '-120px' }}>
                     cerita di balik <br className="hidden md:block" />
                     <span className="text-special">kerjasama nyata</span>
                 </h3>
                 <div className="block md:hidden">
-                    <div className="flex flex-col gap-5 justify-center items-center mt-10">
+                    <div className="flex flex-col gap-5 justify-center items-center mt-12">
                         <Card
                             description="Bekerja dengan Agung selalu terasa lancar. Ia cepat memahami tujuan proyek dan mampu menyusun solusi digital yang relevan, rapi, dan langsung bisa memberikan dampak nyata."
                             name="Ardra"
@@ -64,7 +64,7 @@ export default function Testimoni() {
                     </div>
                 </div>
                 <div className="hidden md:block xl:hidden">
-                    <div className="mt-14 lg:mt-18 h-[1600px] xl:h-auto flex flex-row gap-5 justify-center items-center overflow-y-hidden">
+                    <div className="mt-12 h-[1600px] xl:h-auto flex flex-row gap-5 justify-center items-center overflow-y-hidden">
                         <div className="animate-move-up-1 flex flex-col gap-5">
                             <Card
                                 description="Agung selalu hadir dengan solusi yang matang. Ia tidak hanya menyelesaikan tugas, tetapi juga memastikan setiap keputusan selaras dengan kebutuhan bisnis dan tujuan proyek."
@@ -120,7 +120,7 @@ export default function Testimoni() {
                     </div>
                 </div>
                 <div className="hidden xl:block">
-                    <div className="relative overflow-x-hidden mt-22 [mask-image:linear-gradient(to_right,transparent_0%,black_15%,black_85%,transparent_100%)] [mask-mode:alpha]">
+                    <div className="relative overflow-x-hidden mt-12 [mask-image:linear-gradient(to_right,transparent_0%,black_15%,black_85%,transparent_100%)] [mask-mode:alpha]">
                         <div className="flex flex-row gap-8 group py-2">
                             <ul className="list-none flex items-center gap-8 shrink-0 animate-marquee-comment group-hover:paused">
                                 <li>

@@ -109,9 +109,9 @@ export default function Layout() {
             <Testimoni />
             <Portofolio />
             <Footer />
-            <div className="bg-bg">
+            {/* <div className="bg-bg">
                 <h1 className="text-gray text-center p-4 text-sm xl:text-base">Website ini masih dalam tahap pengembangan. Mohon maaf atas ketidaknyamanan.</h1>    
-            </div>
+            </div> */}
         </main>
     );
 }

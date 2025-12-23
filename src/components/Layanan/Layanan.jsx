@@ -13,20 +13,20 @@ export default function Layanan() {
                 observer.unobserve(el);
                 }
             },
-            { threshold: 0.5 }
+            { threshold: 0.2 }
             );
     
             observer.observe(el);
         }, []);
     return (
-        <section ref={ref} id="layanan" className="pt-48 pb-22 mt-18 relative opacity-0">
-            <div className="absolute inset-0 blur-bg -z-10"></div>
-            <div className="mx-5 lg:mx-12 text-white">
-                <h3 className="tagline-section line-bottom-tagline">
+        <section ref={ref} id="layanan" className="scroll-m-10 opacity-0">
+                {/* <div className="absolute inset-0 blur-bg -z-10"></div> */}
+            <div className="text-white px-5 md:px-7 max-w-7xl py-12 lg:py-18 mx-auto">
+                <h3 className="tagline-section custom-line-bottom-tagline" style={{ '--line-offset': '-120px' }}>
                     4 aksi nyata dalam <br className="hidden md:block" />
                     <span className="text-special">pengembangan digital</span>
                 </h3>
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mt-16">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start mt-12">
                     <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
                             <h3 className="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
