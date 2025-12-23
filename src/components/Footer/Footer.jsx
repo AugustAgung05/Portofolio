@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="relative footer-shadow text-secondary px-5 md:px-7 pt-8 pb-4 max-w-7xl mx-auto">
                 <div className="flex flex-col gap-8 lg:gap-0 lg:flex-row justify-center lg:justify-between items-start">
                     <div className="custom-width-1">
-                        <h2 className="text-light font-bold text-lg lg:text-base"><span className="text-neon">X</span>AAS</h2>
+                        <h2 className="text-light font-bold text-sm md:text-base"><span className="text-neon">X</span>AAS</h2>
                         <p className="mt-2 lg:mt-3 text-sm lg:text-xs xl:text-sm leading-relaxed">Teknologi terus berkembang, dan kamu bisa ikut maju! Dapatkan panduan lengkap untuk memahami dunia pemrograman dengan cara yang lebih mudah.</p>
                         <div className="mt-6 justify-center lg:justify-start flex gap-5 lg:gap-7">
                             <a href="https://wa.me/6285778208790"><img className="transition-transform duration-150 hover:scale-110" src={whatsapp} alt="whatsapp"/></a>
@@ -49,7 +49,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div>
-                        <h2 className="text-light font-bold text-lg lg:text-base">Tautan Cepat</h2>
+                        <h2 className="text-light font-bold text-sm md:text-base">Tautan Cepat</h2>
                         <ul className="mt-2 lg:mt-3 space-y-1.5 lg:space-y-2.5 text-sm lg:text-xs xl:text-sm">
                             <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#tentang">Tentang</a></li>
                             <li className="flex items-center gap-3 group"><img className="transition-transform duration-200 group-hover:translate-x-1" src={arrow} alt="" /> <a href="#layanan">Layanan</a></li>
@@ -59,7 +59,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="text-light font-bold text-lg lg:text-base">Kontak</h2>
+                        <h2 className="text-light font-bold text-sm md:text-base">Kontak</h2>
                         <ul className="mt-2 lg:mt-3 space-y-1.5 lg:space-y-3 text-sm lg:text-xs xl:text-sm">
                             <li className="flex items-center gap-2">
                                 <img src={google} className="w-3" alt="mail"/>
@@ -82,7 +82,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="custom-width-2">
-                        <h2 className="text-light font-bold text-lg lg:text-base">Yuk Bangun Sesuatu Bersama</h2>
+                        <h2 className="text-light font-bold text-sm md:text-base">Yuk Bangun Sesuatu Bersama</h2>
                         <p className="mt-2 lg:mt-3 text-sm lg:text-xs xl:text-sm leading-relaxed">Tertarik bekerja sama dalam proyek digital? Saya siap membantu Anda mewujudkan ide menjadi solusi nyata.</p>
                         <div className="mt-4 flex flex-col gap-3">
                             <textarea

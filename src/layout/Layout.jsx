@@ -2,7 +2,7 @@
 import Navbar from "../components/Navbar/Navbar";
 import Beranda from "../components/Beranda/Beranda";
 import Slider from '../components/Slider/Slider';
-import About from '../components/About/About';
+import Tentang from '../components/Tentang/Tentang';
 import Layanan from "../components/Layanan/Layanan";
 import Collaboration from '../components/Collaboration/Collaboration';
 import Keahlian from "../components/Keahlian/Keahlian";
@@ -102,7 +102,7 @@ export default function Layout() {
             <Navbar />
             <Beranda />
             <Slider />
-            <About />
+            <Tentang />
             <Layanan />
             <Collaboration/>
             <Keahlian />

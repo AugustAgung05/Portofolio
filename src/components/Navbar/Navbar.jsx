@@ -75,7 +75,7 @@ export default function Navbar() {
                 <nav ref={navRef} className={`absolute z-[999] lg:flex lg:static lg:ml-12 lg:bg-transparent lg:max-w-max lg:justify-center lg:shadow-none lg:rounded-none ${!isOpen ? 'hidden' : 'navbar-fixed'}`}>
                     <ul className="block lg:flex">
                         <li className="listitem-nav">
-                            <a href="#about" className="anchor-nav">Tentang</a>
+                            <a href="#tentang" className="anchor-nav">Tentang</a>
                         </li>
                         <li className="listitem-nav">
                             <a href="#layanan" className="anchor-nav">Layanan</a>

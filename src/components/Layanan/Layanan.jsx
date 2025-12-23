@@ -28,7 +28,7 @@ export default function Layanan() {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start mt-12">
                     <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
-                            <h3 className="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
+                            <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                                 Pengembangan Website
                             </h3>
                             <p className="text-secondary text-sm leading-relaxed">
@@ -38,7 +38,7 @@ export default function Layanan() {
                         </div>
 
                         <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
-                            <h3 className="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
+                            <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                                 Pengalaman Pengguna
                             </h3>
                             <p className="text-secondary text-sm leading-relaxed">
@@ -48,7 +48,7 @@ export default function Layanan() {
                         </div>
 
                         <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
-                            <h3 className="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
+                            <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                                 Desain UI/UX
                             </h3>
                             <p className="text-secondary text-sm leading-relaxed">
@@ -58,7 +58,7 @@ export default function Layanan() {
                         </div>
 
                         <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
-                            <h3 className="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
+                            <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                                 Pemodelan Sistem
                             </h3>
                             <p className="text-secondary text-sm leading-relaxed">
@@ -80,7 +80,7 @@ export default function Layanan() {
                                     <div className="w-4 h-4 rounded-full bg-gray-800 border-2 border-gray-600 group-hover:border-cyan-400 group-hover:bg-cyan-500 group-hover:shadow-[0_0_10px_rgba(34,211,238,0.8)] transition-all duration-300"></div>
                                 </div>
                                 <div>
-                                    <h5 className="text-white font-bold text-lg mb-1 group-hover:text-cyan-400 transition-colors">
+                                    <h5 className="text-white font-bold text-sm md:text-base mb-1 group-hover:text-cyan-400 transition-colors">
                                         Analisis Mendalam
                                     </h5>
                                     <p className="text-secondary text-sm leading-relaxed">
@@ -95,7 +95,7 @@ export default function Layanan() {
                                     <div className="w-4 h-4 rounded-full bg-gray-800 border-2 border-gray-600 group-hover:border-cyan-400 group-hover:bg-cyan-500 group-hover:shadow-[0_0_10px_rgba(34,211,238,0.8)] transition-all duration-300"></div>
                                 </div>
                                 <div>
-                                    <h5 className="text-white font-bold text-lg mb-1 group-hover:text-cyan-400 transition-colors">
+                                    <h5 className="text-white font-bold text-sm md:text-base mb-1 group-hover:text-cyan-400 transition-colors">
                                         Perancangan Terstruktur
                                     </h5>
                                     <p className="text-secondary text-sm leading-relaxed">
@@ -110,7 +110,7 @@ export default function Layanan() {
                                     <div className="w-4 h-4 rounded-full bg-gray-800 border-2 border-gray-600 group-hover:border-cyan-400 group-hover:bg-cyan-500 group-hover:shadow-[0_0_10px_rgba(34,211,238,0.8)] transition-all duration-300"></div>
                                 </div>
                                 <div>
-                                    <h5 className="text-white font-bold text-lg mb-1 group-hover:text-cyan-400 transition-colors">
+                                    <h5 className="text-white font-bold text-sm md:text-base mb-1 group-hover:text-cyan-400 transition-colors">
                                         Implementasi Presisi
                                     </h5>
                                     <p className="text-secondary text-sm leading-relaxed">
@@ -126,7 +126,7 @@ export default function Layanan() {
                                     <div className="w-4 h-4 rounded-full bg-gray-800 border-2 border-gray-600 group-hover:border-cyan-400 group-hover:bg-cyan-500 group-hover:shadow-[0_0_10px_rgba(34,211,238,0.8)] transition-all duration-300"></div>
                                 </div>
                                 <div>
-                                    <h5 className="text-white font-bold text-lg mb-1 group-hover:text-cyan-400 transition-colors">
+                                    <h5 className="text-white font-bold text-sm md:text-base mb-1 group-hover:text-cyan-400 transition-colors">
                                         Validasi & Optimasi
                                     </h5>
                                     <p className="text-secondary text-sm leading-relaxed">

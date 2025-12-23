@@ -13,7 +13,7 @@ export default function Card({description, name, title, avatar}) {
            <div className="flex flex-row items-center gap-4 mt-8 upper-line relative">
                 <img src={avatar} alt="Avatar 1" className="w-12" />
                 <div className="flex flex-col gap-1">
-                    <h3 className="font-semibold text-sm md:text-base">{name}</h3>
+                    <h3 className="font-bold text-sm md:text-base">{name}</h3>
                     <p className="text-xs md:text-sm text-secondary">{title}</p>
                 </div>
             </div>
