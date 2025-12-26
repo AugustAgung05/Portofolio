@@ -108,7 +108,7 @@ export default function Portofolio() {
                 observer.unobserve(el);
                 }
             },
-            { threshold: 0.2 }
+            { threshold: 0.1 }
             );
     
             observer.observe(el);
