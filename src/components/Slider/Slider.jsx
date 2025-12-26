@@ -22,7 +22,7 @@ export default function Slider() {
     }, []);
 
     return (
-        <section ref={ref} className="text-white opacity-0 py-24 2xl:py-32">
+        <section ref={ref} className="text-light opacity-0 py-24 2xl:py-32">
             <div className="relative">
                 <svg
                     viewBox="0 0 1440 158"
@@ -50,7 +50,7 @@ export default function Slider() {
             </div>
             <div className="h-[80px] 2xl:h-[100px] bg-[#0F1722] marquee-content">
                 <div className="flex h-full items-center group gap-16 2xl:gap-24 overflow-x-hidden">
-                    <ul className="text-base lg:text-lg xl:text-xl tracking-wide font-semibold list-none flex items-center gap-16 2xl:gap-24 text-white shrink-0 justify-between whitespace-nowrap min-w-full animate-marquee-monitor-1 2xl:animate-marquee-monitor-2 group-hover:paused">
+                    <ul className="text-base lg:text-lg xl:text-xl tracking-wide font-semibold list-none flex items-center gap-16 2xl:gap-24 shrink-0 justify-between whitespace-nowrap min-w-full animate-marquee-monitor-1 2xl:animate-marquee-monitor-2 group-hover:paused">
                         <li>
                             <img
                                 src={flower}
@@ -102,7 +102,7 @@ export default function Slider() {
                             <h2>Self-Learning and Initiative</h2>
                         </li>
                     </ul>
-                    <ul className="text-base lg:text-lg xl:text-xl tracking-wide font-semibold list-none flex items-center gap-16 2xl:gap-24 text-light shrink-0 justify-between whitespace-nowrap min-w-full animate-marquee-monitor-1 2xl:animate-marquee-monitor-2 group-hover:paused">
+                    <ul className="text-base lg:text-lg xl:text-xl tracking-wide font-semibold list-none flex items-center gap-16 2xl:gap-24 shrink-0 justify-between whitespace-nowrap min-w-full animate-marquee-monitor-1 2xl:animate-marquee-monitor-2 group-hover:paused">
                         <li>
                             <img
                                 src={flower}

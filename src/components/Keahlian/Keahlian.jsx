@@ -31,7 +31,7 @@ export default function Keahlian() {
         }, []);
     return (
         <section ref={ref} id="keahlian" className="scroll-m-6 opacity-0">
-            <div className="px-5 md:px-7 py-12 lg:py-18 max-w-7xl mx-auto text-white">
+            <div className="px-5 md:px-7 py-12 lg:py-18 max-w-7xl mx-auto text-light">
                 <h3 className="tagline-section custom-line-bottom-tagline" style={{ '--line-offset': '-120px' }}>
                     senjata utama dalam <br className="hidden md:block"/>
                     <span className="text-special">pengembangan digital</span>

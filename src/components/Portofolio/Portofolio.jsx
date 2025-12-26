@@ -9,6 +9,8 @@ import SimisLogo from '../../assets/SIMIS Logo.svg';
 import PerpustakaanLogo from '../../assets/Perpustakaan Logo.svg';
 import PregnaCareLogo from '../../assets/PregnaCare Logo.svg';
 import InventoryLogo from '../../assets/Inventory Logo.svg';
+import GoodRagaLogo from '../../assets/GoodRaga Logo.svg';
+import TpcLogo from '../../assets/TPC Logo.svg';
 
 import KicauMania1 from '../../assets/kicau-mania-3.png';
 import KicauMania2 from '../../assets/kicau-mania-2.png';
@@ -76,6 +78,20 @@ import Diagram3 from '../../assets/diagram-3.png';
 import Diagram4 from '../../assets/diagram-4.png';
 import Diagram from '../../assets/diagram.png';
 
+import Tpc1 from '../../assets/tpc-1.png';
+import Tpc2 from '../../assets/tpc-2.png';
+import Tpc3 from '../../assets/tpc-3.png';
+import Tpc from '../../assets/tpc.png';
+
+import GoodRaga1 from '../../assets/goodraga-1.png';
+import GoodRaga2 from '../../assets/goodraga-2.png';
+import GoodRaga3 from '../../assets/goodraga-3.png';
+import GoodRaga4 from '../../assets/goodraga-4.png';
+import GoodRagaDesign from '../../assets/goodraga-design.png';
+import GoodRaga from '../../assets/goodraga.png';
+
+
+
 import { useEffect, useRef } from "react";
 
 export default function Portofolio() {
@@ -99,15 +115,21 @@ export default function Portofolio() {
 
     return (
         <section ref={ref} id="portofolio" className="scroll-m-6 opacity-0">
-            <div className="px-5 md:px-7 py-12 lg:py-18 max-w-7xl mx-auto text-white">
+            <div className="px-5 md:px-7 py-12 lg:py-18 max-w-7xl mx-auto text-light">
                 <h3 className="tagline-section line-bottom-tagline" style={{ '--line-offset': '-120px' }}>
                     jejak karya dalam <br className="hidden md:block" />
                     <span className="text-special">dunia digital</span>
                 </h3>
                 <div className="flex flex-col md:flex-row md:flex-wrap gap-5 md:gap-8 mt-12 justify-center items-center">
-                    <Card category="Competition" title="PregnaCare" description="Mobile Application Design" logo={PregnaCareLogo} contentImg={[PregnaCare, PregnaCareDesign, PregnaCare1, PregnaCare2, PregnaCare3, PregnaCare4, PregnaCare5]} role="UI/UX Designer" contentDesc="Menggunakan pendekatan Empathic Design untuk aplikasi pendamping ibu hamil. Memadukan fitur pemantauan medis dengan antarmuka yang memberikan rasa tenang dan dukungan emosional bagi pengguna." scopes={["Mobile App Design", "User Empathy Research"]} tools={["Figma"]} features={["Pelacak Kesehatan & Nutrisi", "Monitor Pola Tidur", "Panduan Persalinan", "Forum Komunitas"]} link="https://www.figma.com/proto/B8pTmAPRzxUJmqfhKoVVWo/PregnaCare?node-id=0-1&p=f&t=JHAKY1azhCuUXkgZ-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=266%3A9886" />
-
+                    <Card category="Task" title="GoodRaga" description="Design and Build" logo={GoodRagaLogo} contentImg={[GoodRaga, GoodRagaDesign, GoodRaga1, GoodRaga2, GoodRaga3, GoodRaga4]} role="Lead Developer & UI/UX Designer" contentDesc="Membangun platform digital end-to-end untuk brand jamu mandiri. Bertanggung jawab penuh mulai dari manajemen proyek, perancangan identitas visual, hingga pengembangan fitur pemesanan (logic-based cart) yang terintegrasi langsung ke WhatsApp gateway." scopes={["End-to-End Development", "Project Management", "Brand Identity"]} tools={["Figma", "HTML5", "Tailwind CSS", "Toastr.js"]} features={["WhatsApp Order Generator", "Live Notification (Toastr)", "Mobile Drawer Menu", "Storytelling Section"]} link="" />
                     
+                    
+                    <Card category="Client" title="Compro" description="Web Application" logo={TpcLogo} contentImg={[Tpc, Tpc1, Tpc2, Tpc3]} role="Frontend Developer" contentDesc="Melakukan slicing dan cloning desain website profil perusahaan manufaktur secara presisi. Fokus pada konversi desain statis menjadi kode yang responsif dan interaktif, memastikan tata letak visual (pixel-perfect) sesuai dengan referensi asli di berbagai ukuran layar." scopes={["Web Slicing", "Responsive Layout", "DOM Manipulation"]} tools={["HTML", "CSS", "Javascript"]} features={["Sticky Header Animation", "Infinite Product Slider", "Responsive Navigation", "Cross-page Linking"]} link="https://augustagung05.github.io/Company-Profiles-TPC/" />
+                    
+
+                    <Card category="Competition" title="PregnaCare" description="Mobile Application Design" logo={PregnaCareLogo} contentImg={[PregnaCare, PregnaCareDesign, PregnaCare1, PregnaCare2, PregnaCare3, PregnaCare4, PregnaCare5]} role="UI/UX Designer" contentDesc="Menggunakan pendekatan Empathic Design untuk aplikasi pendamping ibu hamil. Memadukan fitur pemantauan medis dengan antarmuka yang memberikan rasa tenang dan dukungan emosional bagi pengguna." scopes={["Mobile App Design", "User Empathy Research"]} tools={["Figma"]} features={["Pelacak Kesehatan & Nutrisi", "Monitor Pola Tidur", "Panduan Persalinan", "Forum Komunitas"]} link="https://www.figma.com/proto/B8pTmAPRzxUJmqfhKoVVWo/PregnaCare?node-id=0-1&p=f&t=JHAKY1azhCuUXkgZ-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=266%3A9886" />
+                    
+
                     <Card category="Client" title="Inventory" description="Web Application Design" logo={InventoryLogo} contentImg={[Inventory, InventoryDesign, Inventory1, Inventory2, Inventory3, Inventory4, Inventory5, InventoryUML]} role="UI/UX Designer & Database Designer" contentDesc="Mendesain solusi digital end-to-end untuk manajemen inventaris pabrik. Selain merancang antarmuka visual yang efisien, saya juga membangun struktur relasi database (ERD) yang kompleks untuk memastikan validitas data arus barang, mulai dari penerimaan supplier hingga distribusi logistik." scopes={["Web App Design", "ERD & Database Modeling", "Complex Logic Mapping"]} tools={["Figma", "UML Tools"]} features={["Manajemen Supplier & Stok", "Dashboard Logistik", "Penjadwalan Pengiriman", "Perancangan Relasi Database (ERD)"]} link="https://www.figma.com/proto/A4Wnk74eayxNSHpB3gaEWq/Projek-Inventory--Client-?node-id=0-1&p=f&t=muLFh4TJm4WKQcwq-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=75%3A2178" />
 
                     
@@ -132,7 +154,7 @@ export default function Portofolio() {
                     <Card category="Client" title="Kicau Mania" description="Mobile Application Design" logo={KicauManiaLogo} contentImg={[KicauMania, KicauManiaDesign, KicauMania1, KicauMania2, KicauMania3]} role="UI Designer" contentDesc="Merancang antarmuka aplikasi teknologi finansial (Fintech) yang berfokus pada kemudahan transaksi digital bagi pengguna awam. Desain ini mengutamakan aksesibilitas dengan gaya clean UI untuk meminimalkan hambatan kognitif pengguna dalam melakukan manajemen keuangan sehari-hari." scopes={["High-Fidelity Design", "Prototyping"]} tools={["Figma"]} features={["Sistem Top-up & Transfer Antar Bank", "Pembayaran PPOB (Pulsa, Listrik, Pajak, Internet)", "Manajemen Virtual Account"]} link="https://www.figma.com/proto/iKMrLFSznJ8NoUEbU1usbg/Kicau-Mania?node-id=0-1&p=f&t=WMmxvNKUJPmborrH-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A12358" />
 
                     
-                    <Card category="Personal" title="Katik" description="Web Application" logo={KatikLogo} contentImg={[Katik, Katik1, Katik2, Katik3]} role="Frontend Developer" contentDesc="Mengembangkan aplikasi web utilitas matematika untuk menghitung luas dan keliling berbagai bangun datar secara instan. Fokus utama proyek ini adalah implementasi logika algoritma matematika yang akurat serta antarmuka yang responsif. Mengintegrasikan pustaka eksternal untuk meningkatkan pengalaman pengguna melalui notifikasi interaktif dan sistem umpan balik langsung." scopes={["Web Development", "Logic Scripting"]} tools={["HTML", "Tailwind CSS", "JavaScript", "Toastr", "EmailJS"]} features={["Kalkulasi Bangun Datar", "Validasi Input Real-time", "Sistem Notifikasi (Toastr)", "Feedback Integration (EmailJS)"]} link="https://augustagung05.github.io/Katik/" />
+                    <Card category="Personal" title="Katik" description="Design and Build" logo={KatikLogo} contentImg={[Katik, Katik1, Katik2, Katik3]} role="Frontend Developer" contentDesc="Mengembangkan aplikasi web utilitas matematika untuk menghitung luas dan keliling berbagai bangun datar secara instan. Fokus utama proyek ini adalah implementasi logika algoritma matematika yang akurat serta antarmuka yang responsif. Mengintegrasikan pustaka eksternal untuk meningkatkan pengalaman pengguna melalui notifikasi interaktif dan sistem umpan balik langsung." scopes={["Web Development", "Logic Scripting"]} tools={["HTML", "Tailwind CSS", "JavaScript", "Toastr", "EmailJS"]} features={["Kalkulasi Bangun Datar", "Validasi Input Real-time", "Sistem Notifikasi (Toastr)", "Feedback Integration (EmailJS)"]} link="https://augustagung05.github.io/Katik/" />
                 </div>
             </div>
         </section>

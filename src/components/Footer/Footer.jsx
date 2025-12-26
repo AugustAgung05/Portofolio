@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import google from '../../assets/googleFooter.svg';
 import instagram from '../../assets/instagramFooter.svg';
 import whatsapp from '../../assets/whatsappFooter.svg';
@@ -6,15 +8,32 @@ import location from '../../assets/location.svg';
 import telephone from '../../assets/telephone.svg';
 import verified from '../../assets/verified.svg';
 import arrow from '../../assets/arrow.svg';
+import toastr from 'toastr';
+import 'toastr/build/toastr.min.css';
 
-import { useState } from 'react';
+toastr.options = {
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": true,
+  "positionClass": "toast-bottom-left",
+  "preventDuplicates": true,
+  "onclick": null,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"
+};
 
 export default function Footer() {
     const [pesan, setPesan] = useState("");
 
   const handleWhatsApp = () => {
     if (!pesan.trim()) {
-      alert("Silakan masukkan pesan terlebih dahulu.");
+      toastr.error("Silakan masukkan pesan terlebih dahulu.");
       return;
     }
 

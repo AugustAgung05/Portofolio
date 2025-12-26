@@ -18,12 +18,7 @@
   --animate-float-card: float-card 3s linear infinite;
   --font-rock-salt: 'Rock Salt', cursive;
   
-  
-  
   --animate-move-bg: move-bg 30s;
-  
-  
-  
   
   @keyframes marquee-monitor-1 {
     to {

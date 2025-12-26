@@ -28,7 +28,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
   }, [images.length]);
 
   return (
-    <div className="bg-gray-900 text-white w-[90vw] max-w-3xl max-h-[95vh] overflow-y-auto modal-scroll rounded-xl p-4 sm:p-6 shadow-2xl relative">
+    <div className="bg-gray-900 text-light w-[90vw] max-w-3xl max-h-[90vh] overflow-y-auto modal-scroll rounded-xl p-4 sm:p-6 shadow-2xl relative">
       <button
         onClick={onClose}
         className="absolute top-4 right-4 bg-red-500 p-2 rounded-full hover:bg-red-700 transition z-[9999]"

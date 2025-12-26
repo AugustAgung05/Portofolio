@@ -19,7 +19,7 @@ export default function Card({ category, title, description, logo, contentImg = 
                             <h4 className="px-4 pt-1 pb-0.5 bg-white text-bg text-[10px] md:text-[13px] rounded-full w-fit">
                                 {category}
                             </h4>
-                            <h5 className="text-lg md:text-2xl text-white mt-2">
+                            <h5 className="text-lg md:text-2xl text-light mt-2">
                                 {title}
                             </h5>
                             <p className="text-[10px] md:text-[13px] font-normal text-secondary mt-1">
@@ -35,7 +35,7 @@ export default function Card({ category, title, description, logo, contentImg = 
                     onClick={() => setOpen(true)}
                     className="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"
                 >
-                    <span className="text-white rounded-full font-medium bg-[#0F1722] px-4 py-2 flex gap-1.5 items-center transition-transform duration-300 translate-y-5 group-hover:translate-y-0">
+                    <span className="text-light rounded-full font-medium bg-[#0F1722] px-4 py-2 flex gap-1.5 items-center transition-transform duration-300 translate-y-5 group-hover:translate-y-0">
                         <p>Tekan Aku</p>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

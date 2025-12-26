@@ -30,7 +30,7 @@ export default function Tentang() {
                     kisah singkat & <br className="hidden md:block" />
                     <span className="text-special">awal mula perjalananku</span>
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mt-12">
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-6 mt-12">
                     <div className="md:col-span-5 order-2 md:order-1">
                         <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800">
                             <h4 className="font-bold text-base md:text-lg">Ayo terhubung</h4>
@@ -75,7 +75,7 @@ export default function Tentang() {
 
                     <div className="md:col-span-7 order-1 md:order-2">
                         <div className="flex flex-col gap-3 text-secondary leading-relaxed">
-                            <h4 className="uppercase tracking-widest text-sm font-semibold mb-4 border-l-2 border-cyan-500 pl-3">
+                            <h4 className="uppercase tracking-widest text-xs font-semibold mb-4 border-l-2 border-cyan-500 pl-3">
                                 Profil Singkat
                             </h4>
                             <p className="text-sm md:text-base">

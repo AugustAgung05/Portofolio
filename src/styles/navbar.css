@@ -2,7 +2,7 @@
 @import './theme/theme.css';
 
 .listitem-nav{
-    @apply py-2 lg:py-3 px-4;
+    @apply py-1.5 lg:py-3 px-4;
 }
 
 .anchor-nav{

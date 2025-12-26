@@ -8,7 +8,7 @@ export default function About(){
             <section id="beranda" className="flex flex-col">
                 <div className="relative w-full max-w-7xl mx-auto px-5 md:px-7 py-8 lg:py-18 xl:py-[90px] flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-4">
                     <div className="w-full lg:w-1/3 flex flex-col items-start opacity-0 animate-fade-in fade-2 lg:fade-1 order-2 lg:order-1 pt-5 lg:pt-0">
-                        <h3 className="text-white tracking-wider font-medium text-sm md:text-base lg:text-sm xl:text-base">
+                        <h3 className="text-light tracking-wider font-medium text-sm md:text-base lg:text-sm xl:text-base">
                             Hai, perkenalkan saya
                         </h3>
                         <h1 className="text-light font-bold mt-4 self-center tracking-wider text-[20px] md:text-[26px] lg:text-[20px] xl:text-[24px] 3xl:text-[32px] relative line-bottom-home font-rock-salt lowercase text-special whitespace-nowrap">
@@ -47,7 +47,7 @@ export default function About(){
                     </div>
 
                     <div className="w-full lg:w-1/3 flex flex-col items-start opacity-0 animate-fade-in fade-3 lg:fade-2 order-3 lg:self-start lg:pl-3 2xl:pl-6 lg:pt-8">
-                        <h3 className="text-white tracking-wider font-medium text-sm md:text-base lg:text-sm xl:text-base">
+                        <h3 className="text-light tracking-wider font-medium text-sm md:text-base lg:text-sm xl:text-base">
                             Layanan
                         </h3>
                         <p className="mt-4 text-sm md:text-base lg:text-sm xl:text-[16px] font-light text-secondary leading-7 lg:leading-8">
