@@ -33,15 +33,15 @@ export default function About(){
                             />
                             
                             <div className="absolute bottom-[46%] -right-[20px] sm:-right-[40px] lg:-right-[30px]">
-                                <Card descriptionClass="ml-3" title="Proyek Terselesaikan" description="12+" className="fade-1" />
+                                <Card descriptionClass="ml-3" title="Proyek Terselesaikan" description="15+" className="fade-1" />
                             </div>
 
                             <div className="absolute bottom-[20%] -left-[20px] sm:-left-[40px] lg:-left-[30px] text-end">
-                                <Card descriptionClass="mr-3" title="Tahun Pengalaman" description="3+" className="fade-2" />
+                                <Card descriptionClass="mr-3" title="Tahun Pengalaman" description="2+" className="fade-2" />
                             </div>
 
                             <div className="absolute -bottom-[20px] -right-[20px] sm:-right-[30px]">
-                                <Card descriptionClass="ml-3" title="Klien | Partner" description="10+" className="fade-3" />
+                                <Card descriptionClass="ml-3" title="Klien | Partner" description="8+" className="fade-3" />
                             </div>
                         </div>
                     </div>
