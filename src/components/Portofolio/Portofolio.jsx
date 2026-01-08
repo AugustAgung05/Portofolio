@@ -11,6 +11,7 @@ import PregnaCareLogo from '../../assets/PregnaCare Logo.svg';
 import InventoryLogo from '../../assets/Inventory Logo.svg';
 import GoodRagaLogo from '../../assets/GoodRaga Logo.svg';
 import TpcLogo from '../../assets/TPC Logo.svg';
+import BookingFlowLogo from '../../assets/Booking Flow Logo.png';
 
 import KicauMania1 from '../../assets/kicau-mania-3.png';
 import KicauMania2 from '../../assets/kicau-mania-2.png';
@@ -91,7 +92,10 @@ import GoodRaga4 from '../../assets/goodraga-4.png';
 import GoodRagaDesign from '../../assets/goodraga-design.png';
 import GoodRaga from '../../assets/goodraga.png';
 
-
+import BookingFlow1 from '../../assets/booking-flow-1.png';
+import BookingFlow2 from '../../assets/booking-flow-2.png';
+import BookingFlow3 from '../../assets/booking-flow-3.png';
+import BookingFlow from '../../assets/booking-flow.png';
 
 import { useEffect, useRef } from "react";
 
@@ -122,6 +126,9 @@ export default function Portofolio() {
                     <span className="text-special">dunia digital</span>
                 </h3>
                 <div className="flex flex-col md:flex-row md:flex-wrap gap-5 md:gap-8 mt-12 justify-center items-center">
+                    <Card category="Task" title="Booking Sim" description="Fullstack Simulation" logo={BookingFlowLogo} contentImg={[BookingFlow, BookingFlow1, BookingFlow2, BookingFlow3]} role="Fullstack Developer" contentDesc="Simulasi arsitektur sistem terdistribusi yang mendemonstrasikan komunikasi antar-server (Service-to-Service) antara aggregator (Tiket.com) dan provider (Hotel). Mencakup simulasi latensi jaringan, locking inventory kamar, dan visualisasi log real-time untuk memantau traffic request dan response API. Dibangun menggunakan Node.js dan Express untuk menangani logika backend yang kompleks serta manajemen state in-memory. Demo ini menggunakan layanan hosting dengan masa aktif terbatas dan akan tersedia hingga 27 Januari 2026." scopes={["Backend Logic", "API Development", "System Architecture", "Frontend Integration", "State Management", "Error Handling"]} tools={["Node.js", "Express.js", "Axios", "HTML5", "Tailwind CSS", "Vanilla JS"]} features={["Real-time Server Logs Visualization", "Service-to-Service Communication", "Network Latency Simulation", "Inventory Locking Mechanism", "Async/Await API Chaining", "Dynamic Status Feedback", "Mock Database Reset"]} link="https://demo-sistem-terdistribusi--anandast05.replit.app/" />
+
+
                     <Card category="Task" title="GoodRaga" description="Design and Build" logo={GoodRagaLogo} contentImg={[GoodRaga, GoodRagaDesign, GoodRaga1, GoodRaga2, GoodRaga3, GoodRaga4]} role="UI/UX Designer & Frontend Engineer" contentDesc="Menerjemahkan visi 'Jamu Modern' menjadi pengalaman digital yang utuh. Dimulai dari perancangan Design System di Figma, hingga eksekusi kode (Slicing) yang melakukan improvisasi desain pada tahap pengembangan untuk visual dan responsivitas yang lebih optimal. Mengembangkan logika custom untuk manajemen data produk dan keranjang belanja (Client-Side State Management) menggunakan Vanilla JavaScript yang ringan dan cepat." scopes={["End-to-End Development", "Project Management", "Brand Identity", "UI/UX Design", "System Design", "Frontend Development", "Prototyping"]} tools={["Figma", "HTML5", "Tailwind CSS", "Toastr.js", "SweetAlert2"]} features={["Logic-Based Shopping Cart", "WhatsApp API Integration", "Dynamic Content Rendering", "Responsive Masonry Grid", "Storytelling Section", "Live Notification (Toastr, SweetAlert2)", "Mobile Drawer Menu"]} link="https://augustagung05.github.io/GoodRaga/" />
                     
                     
