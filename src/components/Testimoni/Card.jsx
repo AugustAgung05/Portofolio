@@ -8,7 +8,7 @@ export default function Card({description, name, title, avatar}) {
                 <img src={quote} alt="Quote" className="rotate-180 w-5" />
             </div>
            
-            <p className="text-sm md:text-base mt-5 leading-relaxed">{description}</p>
+            <p className="text-sm xl:text-base mt-5 leading-relaxed">{description}</p>
            
            <div className="flex flex-row items-center gap-4 mt-8 upper-line relative">
                 <img src={avatar} alt="Avatar 1" className="w-12" />

@@ -14,7 +14,7 @@ export default function About(){
                         <h1 className="text-light font-bold mt-4 self-center tracking-wider text-[20px] md:text-[26px] lg:text-[20px] xl:text-[24px] 3xl:text-[32px] relative line-bottom-home font-rock-salt lowercase text-special whitespace-nowrap">
                             Ananda Agung Styadi
                         </h1>
-                        <p className="mt-8 text-sm md:text-base lg:text-sm xl:text-[16px] font-light text-secondary leading-7 lg:leading-8">
+                        <p className="mt-8 text-sm lg:text-sm xl:text-[16px] font-light text-secondary leading-7 lg:leading-8">
                             <span className="block lg:hidden">
                                 Mahasiswa aktif dari program studi Teknik Informatika semester 5 yang telah memiliki <strong className="font-semibold"> sertifikat kompetensi BNSP</strong>. Berpengalaman dalam mengembangkan berbagai proyek pembelajaran dan selalu bersemangat memperdalam keterampilan di bidang teknologi informasi, mulai dari pemrograman, pengembangan aplikasi, hingga riset terbaru di industri digital.
                             </span>
@@ -50,7 +50,7 @@ export default function About(){
                         <h3 className="text-light tracking-wider font-medium text-sm md:text-base lg:text-sm xl:text-base">
                             Layanan
                         </h3>
-                        <p className="mt-4 text-sm md:text-base lg:text-sm xl:text-[16px] font-light text-secondary leading-7 lg:leading-8">
+                        <p className="mt-4 text-sm lg:text-sm xl:text-[16px] font-light text-secondary leading-7 lg:leading-8">
                             <span className="hidden lg:block">
                             Punya ide keren untuk <strong className="font-semibold">website atau aplikasi</strong>? Akan kami bantu! Yuk, mulai sekarang dan jadikan ide kamu nyata!
                             </span>

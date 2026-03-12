@@ -1,8 +1,15 @@
 import { useEffect, useState } from "react";
 
 //eslint-disable-next-line
-export default function DetailCard({ images = [], title, role, desc, scopes = [], tools = [], features = [], link = "",onClose }) {
+export default function DetailCard({ images = [], title, role, desc, scopes = [], tools = [], features = [], link = "", category= "", onClose}) {
   const [index, setIndex] = useState(0);
+  
+  const categoryInfo = {
+    Task: "Tugas yang diberikan oleh kampus",
+    Client: "Project yang dikerjakan untuk klien (berbayar)",
+    Personal: "Project yang dibuat dari ide dan inisiatif pribadi",
+    Competition: "Project yang dibuat untuk mengikuti lomba atau kompetisi"
+  };
 
   const handleMouseMove = (e) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -57,8 +64,21 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
           ></div>
         ))}
       </div>
-        
-      <h2 className="text-base lg:text-2xl font-bold mt-4">{title}</h2>
+      
+      <div className="flex gap-3 mt-4">
+        <h2 className="text-base lg:text-2xl font-bold">{title}</h2>
+        {category && (
+          <div className="relative group">
+            <span className="text-[11px] px-2 py-1 bg-gray-800 border border-gray-700 rounded-full cursor-default">
+              {category}
+            </span>
+
+            <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-max max-w-[180px] bg-black text-white text-xs px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none z-50 leading-relaxed text-center">
+              {categoryInfo[category]}
+            </div>
+          </div>
+        )}
+      </div>  
       <p className="text-secondary text-sm mb-2">{role}</p>
       <p className="text-sm leading-relaxed mb-6">{desc}</p>
 

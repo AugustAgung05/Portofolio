@@ -31,10 +31,33 @@ export default function Tentang() {
                     <span className="text-special">awal mula perjalananku</span>
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-6 mt-12">
-                    <div className="md:col-span-5 order-2 md:order-1">
+                    <div className="md:col-span-7 order-2 md:order-1">
+                        <div className="flex flex-col gap-3 text-secondary leading-relaxed">
+                            <h4 className="uppercase tracking-widest text-xs font-semibold mb-4 border-l-2 border-cyan-500 pl-3">
+                                Profil Singkat
+                            </h4>
+                            <p className="text-sm lg:text-base">
+                                Saya memulai perjalanan di dunia teknologi karena rasa
+                                ingin tahu tentang cara kerja sistem. Itu yang mendorong
+                                saya menekuni Teknik Informatika.
+                            </p>
+                            <p className="text-sm lg:text-base">
+                                Di tengah proses belajar, saya tertarik pada UI/UX dan
+                                analisis sistem—bukan hanya soal sistem berjalan, tapi
+                                juga terasa nyaman bagi pengguna.
+                            </p>
+                            <p className="text-sm lg:text-base">
+                                Bagi saya, setiap proyek adalah kesempatan untuk
+                                menggabungkan logika teknis dan empati, menciptakan
+                                solusi digital yang bermanfaat.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="md:col-span-5 order-1 md:order-2">
                         <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800">
                             <h4 className="font-bold text-base md:text-lg">Ayo terhubung</h4>
-                            <p className="text-secondary mt-4 leading-relaxed text-sm md:text-base">
+                            <p className="text-secondary mt-4 leading-relaxed text-sm lg:text-base">
                                 Saya aktif di beberapa sosial media. Kalau kamu mau
                                 ngobrol, diskusi, atau sekadar lihat aktivitas
                                 harian, langsung follow aja.
@@ -62,29 +85,6 @@ export default function Tentang() {
                                     </a>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-
-                    <div className="md:col-span-7 order-1 md:order-2">
-                        <div className="flex flex-col gap-3 text-secondary leading-relaxed">
-                            <h4 className="uppercase tracking-widest text-xs font-semibold mb-4 border-l-2 border-cyan-500 pl-3">
-                                Profil Singkat
-                            </h4>
-                            <p className="text-sm md:text-base">
-                                Saya memulai perjalanan di dunia teknologi karena rasa
-                                ingin tahu tentang cara kerja sistem. Itu yang mendorong
-                                saya menekuni Teknik Informatika.
-                            </p>
-                            <p className="text-sm md:text-base">
-                                Di tengah proses belajar, saya tertarik pada UI/UX dan
-                                analisis sistem—bukan hanya soal sistem berjalan, tapi
-                                juga terasa nyaman bagi pengguna.
-                            </p>
-                            <p className="text-sm md:text-base">
-                                Bagi saya, setiap proyek adalah kesempatan untuk
-                                menggabungkan logika teknis dan empati, menciptakan
-                                solusi digital yang bermanfaat.
-                            </p>
                         </div>
                     </div>
                 </div>

@@ -48,7 +48,7 @@ export default function Slider() {
                     />
                 </svg>
             </div>
-            <div className="h-[80px] 2xl:h-[100px] bg-[#0F1722] marquee-content">
+            <div className="h-[80px] 2xl:h-[100px] bg-[#0F1722]">
                 <div className="flex h-full items-center group gap-16 2xl:gap-24 overflow-x-hidden">
                     <ul className="text-base lg:text-lg xl:text-xl tracking-wide font-semibold list-none flex items-center gap-16 2xl:gap-24 shrink-0 justify-between whitespace-nowrap min-w-full animate-marquee-monitor-1 2xl:animate-marquee-monitor-2 group-hover:paused">
                         <li>

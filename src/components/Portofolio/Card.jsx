@@ -40,9 +40,24 @@ export default function Card({ category, title, description, logo, contentImg = 
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 640 640"
-                            className="w-6 fill-white"
-                        >
-                            <path d="M128 256L296 256L296 64L288 64C199.6 64 128 135.6 128 224L128 256zM128 304L128 416C128 504.4 199.6 576 288 576L352 576C440.4 576 512 504.4 512 416L512 304L128 304zM512 256L512 224C512 135.6 440.4 64 352 64L344 64L344 256L512 256z" />
+                            className="w-6"
+                            >
+                            <defs>
+                                <linearGradient id="mouseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stopColor="#22d3ee" />
+                                <stop offset="100%" stopColor="#2563eb" />
+                                </linearGradient>
+                            </defs>
+
+                            <path
+                                d="M128 256L296 256L296 64L288 64C199.6 64 128 135.6 128 224L128 256zM128 304L128 416C128 504.4 199.6 576 288 576L352 576C440.4 576 512 504.4 512 416L512 304L128 304zM512 256L512 224C512 135.6 440.4 64 352 64L344 64L344 256L512 256z"
+                                className="fill-white"
+                            />
+
+                            <path
+                                d="M128 256L296 256L296 64L288 64C199.6 64 128 135.6 128 224Z"
+                                fill="url(#mouseGradient)"
+                            />
                         </svg>
                     </span>
                 </button>
@@ -59,6 +74,7 @@ export default function Card({ category, title, description, logo, contentImg = 
                     tools={tools}
                     features={features}
                     link={link}
+                    category={category}
                 />
             </Overlay>
         </>

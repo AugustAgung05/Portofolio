@@ -8,9 +8,9 @@
 }
 
 @theme {
-  --animate-marquee-monitor-1: marquee-monitor-1 10s linear infinite;
-  --animate-marquee-monitor-2: marquee-monitor-2 10s linear infinite;
-  --animate-marquee-comment: marquee-comment-1 25s linear infinite;
+  --animate-marquee-monitor-1: marquee-monitor-1 15s linear infinite;
+  --animate-marquee-monitor-2: marquee-monitor-2 15s linear infinite;
+  --animate-marquee-comment: marquee-comment-1 30s linear infinite;
   --animate-move-up-1: move1 17s ease-in infinite;
   --animate-move-up-2: move2 17s ease-in infinite;
   --animate-fade-in: fade-in 0.8s ease-out forwards;
@@ -341,3 +341,68 @@ body::-webkit-scrollbar-thumb:hover {
   background: #0F1722;
   padding-block: clamp(3rem, 6vw, 5rem);
 } */
+
+.portfolio-cta{
+  display: block;
+  background: linear-gradient(to right,#22d3ee,#2563eb);
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 48px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(34,211,238,0.35);
+  transition: transform .2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-cta:active{
+  transform: scale(.96);
+}
+
+.portfolio-cta::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:-100%;
+  width:50%;
+  height:100%;
+  background:linear-gradient(
+      to right,
+      transparent,
+      rgba(255,255,255,.4),
+      transparent
+  );
+  transform:skewX(-20deg);
+  animation:shine 2s infinite;
+}
+
+@keyframes shine{
+  0%{left:-100%;}
+  50%{left:100%;}
+  100%{left:200%;}
+}
+
+@keyframes breathingGlow {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+}
+
+.breathing-glow {
+  animation: breathingGlow 6s ease-in-out infinite;
+}
+
+.glow-delay {
+  animation-delay: 3s;
+}
