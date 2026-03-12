@@ -33,7 +33,7 @@ export default function Card({ category, title, description, logo, contentImg = 
                 <button
                     type="button"
                     onClick={() => setOpen(true)}
-                    className="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"
+                    className="absolute inset-0 z-0 group-hover:z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"
                 >
                     <span className="text-light rounded-full font-medium bg-[#0F1722] px-4 py-2 flex gap-1.5 items-center transition-transform duration-300 translate-y-5 group-hover:translate-y-0">
                         <p>Tekan Aku</p>
