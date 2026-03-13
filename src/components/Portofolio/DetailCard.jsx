@@ -66,20 +66,20 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
       </div>
       
       <div className="flex gap-3 mt-4">
-        <h2 className="text-base lg:text-2xl font-bold">{title}</h2>
+        <h2 className="text-lg lg:text-2xl font-bold">{title}</h2>
         {category && (
           <div className="relative group">
-            <span className="text-[11px] px-2 py-1 bg-gray-800 border border-gray-700 rounded-full cursor-default">
+            <span className="text-[9px] lg:text-[11px] px-2 py-1 bg-gray-800 border border-gray-700 rounded-full cursor-default flex items-center gap-1">
               {category}
             </span>
 
-            <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-max max-w-[180px] bg-black text-white text-xs px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none z-50 leading-relaxed text-center">
+            <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-max max-w-[180px] bg-black text-white text-[10px] lg:text-xs px-3 py-1 rounded opacity-0 group-hover:opacity-100 group-active:opacity-100 group-active:delay-500 transition duration-300 pointer-events-none z-50 leading-relaxed text-center">
               {categoryInfo[category]}
             </div>
           </div>
         )}
       </div>  
-      <p className="text-secondary text-sm mb-2">{role}</p>
+      <p className="text-secondary text-xs lg: text-sm mb-2">{role}</p>
       <p className="text-sm leading-relaxed mb-6">{desc}</p>
 
       <div className="mb-6">
@@ -122,8 +122,8 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
       { link && (
         <button className="sticky bottom-0 float-right bg-gradient-to-r from-cyan-400 to-blue-600 px-4 py-2 rounded-full hover:scale-105 transition-transform">
           <a href={link} className="flex gap-2 items-center" target="_blank" rel="noopener noreferrer">
-              <p className="text-gray-900/80 text-sm font-medium">Lihat Desain</p>
-              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.75 12C9.75 10.7574 10.7574 9.75 12 9.75C13.2426 9.75 14.25 10.7574 14.25 12C14.25 13.2426 13.2426 14.25 12 14.25C10.7574 14.25 9.75 13.2426 9.75 12Z" fill="#101828"></path> <path fillRule="evenodd" clipRule="evenodd" d="M2 12C2 13.6394 2.42496 14.1915 3.27489 15.2957C4.97196 17.5004 7.81811 20 12 20C16.1819 20 19.028 17.5004 20.7251 15.2957C21.575 14.1915 22 13.6394 22 12C22 10.3606 21.575 9.80853 20.7251 8.70433C19.028 6.49956 16.1819 4 12 4C7.81811 4 4.97196 6.49956 3.27489 8.70433C2.42496 9.80853 2 10.3606 2 12ZM12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25Z" fill="#101828"></path> </g></svg>
+              <p className="text-gray-900/80 text-xs font-medium">Lihat Desain</p>
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.75 12C9.75 10.7574 10.7574 9.75 12 9.75C13.2426 9.75 14.25 10.7574 14.25 12C14.25 13.2426 13.2426 14.25 12 14.25C10.7574 14.25 9.75 13.2426 9.75 12Z" fill="#101828"></path> <path fillRule="evenodd" clipRule="evenodd" d="M2 12C2 13.6394 2.42496 14.1915 3.27489 15.2957C4.97196 17.5004 7.81811 20 12 20C16.1819 20 19.028 17.5004 20.7251 15.2957C21.575 14.1915 22 13.6394 22 12C22 10.3606 21.575 9.80853 20.7251 8.70433C19.028 6.49956 16.1819 4 12 4C7.81811 4 4.97196 6.49956 3.27489 8.70433C2.42496 9.80853 2 10.3606 2 12ZM12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25Z" fill="#101828"></path> </g></svg>
             </a>
         </button>
       )}
