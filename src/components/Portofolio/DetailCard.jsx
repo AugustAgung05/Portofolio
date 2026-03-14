@@ -65,8 +65,8 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
         ))}
       </div>
       
-      <div className="flex gap-3 mt-4">
-        <h2 className="text-lg lg:text-2xl font-bold">{title}</h2>
+      <div className="flex gap-3 items-center mt-4">
+        <h2 className="text-lg lg:text-xl font-bold">{title}</h2>
         {category && (
           <div className="relative group">
             <span className="text-[9px] lg:text-[11px] px-2 py-1 bg-gray-800 border border-gray-700 rounded-full cursor-default flex items-center gap-1">
@@ -79,8 +79,8 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
           </div>
         )}
       </div>  
-      <p className="text-secondary text-xs lg: text-sm mb-2">{role}</p>
-      <p className="text-sm leading-relaxed mb-6">{desc}</p>
+      <p className="text-secondary text-xs lg:text-sm mb-2">{role}</p>
+      <p className="text-xs lg:text-sm leading-relaxed mb-6">{desc}</p>
 
       <div className="mb-6">
         <h3 className="text-sm lg:text-lg font-semibold mb-2">Scope</h3>
@@ -88,7 +88,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
           {scopes.map((scope, idx) => (
             <span
               key={idx}
-              className="px-3 py-1 bg-gray-800 rounded-full text-sm border border-gray-700"
+              className="px-3 py-1 bg-gray-800 rounded-full text-xs lg:text-sm border border-gray-700"
             >
               {scope}
             </span>
@@ -102,7 +102,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
           {tools.map((tool, idx) => (
             <span
               key={idx}
-              className="px-3 py-1 bg-gray-800 rounded-full text-sm border border-gray-700"
+              className="px-3 py-1 bg-gray-800 rounded-full text-xs lg:text-sm border border-gray-700"
             >
               {tool}
             </span>
@@ -112,7 +112,7 @@ export default function DetailCard({ images = [], title, role, desc, scopes = []
 
       <div className="mb-6 s:mb-0">
         <h3 className="text-sm lg:text-lg font-semibold mb-2">Fitur</h3>
-        <ul className="list-disc pl-5 space-y-1 text-sm text-gray-300">
+        <ul className="list-disc pl-5 space-y-1 text-xs lg:text-sm text-gray-300">
           {features.map((f, idx) => (
             <li key={idx}>{f}</li>
           ))}
