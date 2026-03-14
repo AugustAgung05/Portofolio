@@ -3,12 +3,12 @@ import quote from "../../assets/quote.svg";
 //eslint-disable-next-line
 export default function Card({description, name, title, avatar}) {
     return(
-        <div className="bg-gray-900/80 rounded-xl border border-gray-800 p-4 md:p-6 w-full s:w-[320px] sm:w-[350px] xl:w-[440px] text-light transition-all duration-300 hover:shadow-[0_0_10px_rgba(56,189,248,0.4)] hover:bg-[#0b141d] hover:border-cyan-500/50">
-            <div className="p-4 border rounded-full w-fit">
-                <img src={quote} alt="Quote" className="rotate-180 w-5" />
+        <div className="bg-gray-900/40 rounded-xl border border-gray-800 p-4 md:p-6 w-full s:w-[320px] sm:w-[350px] xl:w-[440px] text-light transition-all duration-300 hover:shadow-[0_0_10px_rgba(56,189,248,0.4)] hover:bg-[#0b141d] hover:border-cyan-500/50">
+            <div className="p-3 md:p-4 border rounded-full w-fit">
+                <img src={quote} alt="Quote" className="rotate-180 w-3 md:w-4" />
             </div>
            
-            <p className="text-sm xl:text-base mt-5 leading-relaxed">{description}</p>
+            <p className="text-sm xl:text-base mt-3 md:mt-5 leading-relaxed">{description}</p>
            
            <div className="flex flex-row items-center gap-4 mt-8 upper-line relative">
                 <img src={avatar} alt="Avatar 1" className="w-12" />

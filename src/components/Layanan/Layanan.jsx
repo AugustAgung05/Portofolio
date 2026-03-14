@@ -27,7 +27,7 @@ export default function Layanan() {
                 </h3>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-6 items-start mt-12">
                     <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                        <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
+                        <div className="bg-gray-900/40 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
                             <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                                 Pengembangan Website
                             </h3>
@@ -37,7 +37,7 @@ export default function Layanan() {
                             </p>
                         </div>
 
-                        <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
+                        <div className="bg-gray-900/40 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
                             <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                                 Pengalaman Pengguna
                             </h3>
@@ -47,7 +47,7 @@ export default function Layanan() {
                             </p>
                         </div>
 
-                        <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
+                        <div className="bg-gray-900/40 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
                             <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                                 Desain UI/UX
                             </h3>
@@ -57,7 +57,7 @@ export default function Layanan() {
                             </p>
                         </div>
 
-                        <div className="bg-gray-900/80 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
+                        <div className="bg-gray-900/40 p-6 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-colors group">
                             <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                                 Pemodelan Sistem
                             </h3>
