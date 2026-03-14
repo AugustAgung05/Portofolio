@@ -89,11 +89,11 @@ export default function Tentang() {
                                         </div>
                                         
                                         <div className="flex-1">
-                                            <h5 className="font-medium text-base mb-1.5 transition-colors text-white lg:group-hover:text-cyan-400"
+                                            <h5 className="font-medium lg:font-bold text-base lg:text-lg mb-1.5 transition-colors text-white lg:group-hover:text-cyan-400"
                                             >
                                                 {card.title}
                                             </h5>
-                                            <p className="text-sm lg:text-base text-secondary leading-relaxed">
+                                            <p className="text-sm text-secondary leading-relaxed">
                                                 {card.desc}
                                             </p>
                                         </div>
@@ -106,7 +106,7 @@ export default function Tentang() {
                     <div className="md:col-span-5 md:mt-10">
                         <div className="bg-gray-900/40 p-6 lg:p-8 rounded-2xl border border-gray-800 sticky top-24">
                             <h4 className="font-bold text-base md:text-lg text-white">Ayo terhubung</h4>
-                            <p className="text-secondary mt-4 leading-relaxed text-sm lg:text-base">
+                            <p className="text-secondary mt-4 leading-relaxed text-sm">
                                 Saya aktif di beberapa sosial media. Kalau kamu mau ngobrol, diskusi, atau sekadar lihat aktivitas harian, langsung follow aja.
                             </p>
                             
